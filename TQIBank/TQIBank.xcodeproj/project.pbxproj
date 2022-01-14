@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,12 +29,6 @@
 		20B0E72E278E5DB200A13675 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E72D278E5DB200A13675 /* HomeCoordinator.swift */; };
 		20B0E733278E5DC600A13675 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E732278E5DC600A13675 /* HomeViewModel.swift */; };
 		20B0E747278E60AA00A13675 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E746278E60AA00A13675 /* AppCoordinator.swift */; };
-		20B0E74F278F145D00A13675 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E74E278F145D00A13675 /* Coordinator.swift */; };
-		20B0E754278F148600A13675 /* CoordinatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E753278F148600A13675 /* CoordinatorPresenter.swift */; };
-		20B0E759278F14DB00A13675 /* RouterLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E758278F14DB00A13675 /* RouterLocation.swift */; };
-		20B0E75E278F153900A13675 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E75D278F153900A13675 /* Errors.swift */; };
-		20B0E763278F162800A13675 /* ModuleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E762278F162800A13675 /* ModuleDestination.swift */; };
-		20B0E768278F165A00A13675 /* TQIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E767278F165A00A13675 /* TQIRouter.swift */; };
 		20FD4E5C278F5C9800B23ECE /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E5B278F5C9800B23ECE /* LoginAPI.swift */; };
 		20FD4E64278F5CA700B23ECE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E63278F5CA700B23ECE /* LoginService.swift */; };
 		20FD4E6A278F6AE200B23ECE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E69278F6AE200B23ECE /* User.swift */; };
@@ -91,12 +85,6 @@
 		20B0E72D278E5DB200A13675 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		20B0E732278E5DC600A13675 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		20B0E746278E60AA00A13675 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		20B0E74E278F145D00A13675 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		20B0E753278F148600A13675 /* CoordinatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPresenter.swift; sourceTree = "<group>"; };
-		20B0E758278F14DB00A13675 /* RouterLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterLocation.swift; sourceTree = "<group>"; };
-		20B0E75D278F153900A13675 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		20B0E762278F162800A13675 /* ModuleDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDestination.swift; sourceTree = "<group>"; };
-		20B0E767278F165A00A13675 /* TQIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQIRouter.swift; sourceTree = "<group>"; };
 		20FD4E5B278F5C9800B23ECE /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
 		20FD4E63278F5CA700B23ECE /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		20FD4E69278F6AE200B23ECE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -323,12 +311,6 @@
 			children = (
 				20B0E6E7278E5A1200A13675 /* Info.plist */,
 				20B0E746278E60AA00A13675 /* AppCoordinator.swift */,
-				20B0E74E278F145D00A13675 /* Coordinator.swift */,
-				20B0E753278F148600A13675 /* CoordinatorPresenter.swift */,
-				20B0E758278F14DB00A13675 /* RouterLocation.swift */,
-				20B0E75D278F153900A13675 /* Errors.swift */,
-				20B0E762278F162800A13675 /* ModuleDestination.swift */,
-				20B0E767278F165A00A13675 /* TQIRouter.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -393,6 +375,7 @@
 				20B0E6D3278E5A1100A13675 /* Frameworks */,
 				20B0E6D4278E5A1100A13675 /* Resources */,
 				C934F48FDB97DAA3D8247145 /* [CP] Embed Pods Frameworks */,
+				8178C5E77ECE02E837EECEDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -431,6 +414,7 @@
 				20B0E6F4278E5A1200A13675 /* Frameworks */,
 				20B0E6F5278E5A1200A13675 /* Resources */,
 				D57039ADC2DE88AE9FEB6E18 /* [CP] Embed Pods Frameworks */,
+				0ED4BB489FDED2BEC2BD4910 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -514,6 +498,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0ED4BB489FDED2BEC2BD4910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		52C7DF6773ECE3533E68B84D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +557,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8178C5E77ECE02E837EECEDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B8744992A92050FB596935D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,11 +600,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -603,11 +615,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -623,18 +633,12 @@
 			files = (
 				2011BB582790B9400001DEBE /* HomeService.swift in Sources */,
 				20FD4E64278F5CA700B23ECE /* LoginService.swift in Sources */,
-				20B0E763278F162800A13675 /* ModuleDestination.swift in Sources */,
 				20B0E71E278E5C3800A13675 /* HomeViewController.swift in Sources */,
-				20B0E759278F14DB00A13675 /* RouterLocation.swift in Sources */,
 				20B0E733278E5DC600A13675 /* HomeViewModel.swift in Sources */,
-				20B0E74F278F145D00A13675 /* Coordinator.swift in Sources */,
 				20B0E717278E5C1F00A13675 /* LoginViewController.swift in Sources */,
 				2011BB502790B92A0001DEBE /* HomeAPI.swift in Sources */,
-				20B0E768278F165A00A13675 /* TQIRouter.swift in Sources */,
 				2011BB462790B75C0001DEBE /* MenuCollectionViewCell.swift in Sources */,
-				20B0E754278F148600A13675 /* CoordinatorPresenter.swift in Sources */,
 				20B0E729278E5C5900A13675 /* LoginCoordinator.swift in Sources */,
-				20B0E75E278F153900A13675 /* Errors.swift in Sources */,
 				2011BB662790BBBE0001DEBE /* MenuOptions.swift in Sources */,
 				20B0E724278E5C4600A13675 /* LoginViewModel.swift in Sources */,
 				20B0E72E278E5DB200A13675 /* HomeCoordinator.swift in Sources */,
@@ -742,7 +746,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -797,7 +801,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import TQICoordinator
+import TQIExtract
 
 class HomeViewCoordinator: Coordinator {
     
@@ -17,9 +19,11 @@ class HomeViewCoordinator: Coordinator {
     var viewModel: HomeViewModel?
     var view: HomeViewController?
     
+    private var extractCoordinator: ExtractCoordinator?
+    
     init() {
-        
         viewModel = HomeViewModel()
+        viewModel?.coordinatorDelegate = self
         view = HomeViewController(viewModel: viewModel!)
         viewController = view
         
@@ -28,5 +32,14 @@ class HomeViewCoordinator: Coordinator {
     
     func start() {
         
+    }
+}
+
+extension HomeViewCoordinator: HomeViewModelCoordinatorDelegate {
+    func homeViewModelGoToExtract(_ viewModel: HomeViewModel) {
+        guard let navigation = navigationController else { return }
+        extractCoordinator = ExtractCoordinator()
+        extractCoordinator?.start(usingPresenter: .push(navigation), animated: true)
+        extractCoordinator?.viewController.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 }

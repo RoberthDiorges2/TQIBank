@@ -7,197 +7,381 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040C861EBBED789E69DAA0827743CFE0 /* VFNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB7FEFF39D8964A9397ECE618EC6CC2 /* VFNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ABBBC97720E9167622CFA4004FB7004 /* RequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DA40962013041B4FCE36E81A389F7 /* RequestBuilderProtocol.swift */; };
-		0D3CE727B14BC391D13606C3484A96D9 /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D96DC1CAB8416859FCE495459FD2819 /* URLPath.swift */; };
-		12733C9A46A1B2DED3A325BE8DC0B20D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		14003CD5B28F403082A755E6326359FF /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BEBAB0A24E4C00EEBFF34E9B1D74C2 /* Environment.swift */; };
-		226B63DDB840ED3FF6678B4FF922CA91 /* APIBuilder+BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B12DC9BAA3D577010AA5A81222B3A /* APIBuilder+BaseURL.swift */; };
-		256640846E94ADD9D286219ACC58AF3B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5DD1669925395D1E6BCF1D68F772C /* ParameterEncoding.swift */; };
-		2CBF9B77FB9FAE428405E9FD72A2105E /* Pods-TQIBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950CFFEF51B15C78BA4987DE869B9A67 /* Pods-TQIBankTests-dummy.m */; };
-		395B49B6B104B637A1B1BECDEBCA5DCB /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD633E89F4D84E4AD41CAB9FF75186C /* RequestExecutor.swift */; };
-		3C08583975D9BE4B24B8FE5B4E587B41 /* Pods-TQIBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF2A51A28DAC138148747D6206FC915 /* Pods-TQIBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4855528ED4B9D4165C30F47687CC6582 /* VFNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D33F1F27F55FB5ED7DEFC9E9D1A1A47 /* VFNetwork-dummy.m */; };
-		55A64837E693D9FD81803556EEC092C7 /* JSONMockContentFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A426B96131BBB9A55A2510411C1DF /* JSONMockContentFile.swift */; };
-		568B29E827F350D885BC74897798D332 /* VCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5925D5D8747F3011BBB669A69552F7D /* VCodable.swift */; };
-		5A33249C5453B918E30226078E0825C1 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890DD2DB731A24656AE6CBE9E10274E /* Cache.swift */; };
-		5A4ED8E6FCF02AE288E65EB7CBF66D84 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9D961AB28212AD16A5F67AA7442D9 /* HTTPTask.swift */; };
-		5DF05027B0980AB04ADED2FDE8E0E0DC /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C5FE2AF49985A7D4ED8BC0CEEA4A3 /* URLParameterEncoding.swift */; };
-		5F12447E087C5C9B524F8A827DC564E9 /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B78A2247F5D4F16D588257534F75C3 /* APIBuilder.swift */; };
-		613C77FCCF3C86728C668ABBE173E420 /* JSONMockOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F46E49AC62D58EEF775A2DD08F4795 /* JSONMockOrchestrator.swift */; };
-		61813AFA6ECAB9E1E837EDC1AB64F8BD /* JSONParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0163FDB6FFB36B8395EB53D12FB7F9D /* JSONParameterEncoding.swift */; };
-		6EF21A04C3512674089156AF8A401AB4 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A460AF498AAC4AE191646E76DCE4DB1 /* RequestService.swift */; };
-		710AF144CC52B98020F3508F2617EDAE /* Pods-TQIBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C84CD60F38930014AD93EF31F7BB415 /* Pods-TQIBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75B9B43BFDCDF5128042060DE17F7023 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69623D151A3DD8405A66D6B4A656DC43 /* RequestProvider.swift */; };
-		7ACE44402107CBC479BD4F642D3B6D0B /* Pods-TQIBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A2162A8145A4D47EE8994D8773FC4 /* Pods-TQIBank-dummy.m */; };
-		7DDAE5D938F070C6B84FD905DD9E71AF /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A06B22BBA5AED33D54EE4CE705549 /* HTTPMethod.swift */; };
-		80235A96B7307434CF5F53CF52B41AC9 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA902364BE194B741AA9BB1E0C19F1C2 /* Cacheable.swift */; };
-		8265E9E85071FC297F1605C0BFB7DD88 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4BF55E195A6AAF65DA81C30584121E /* Disk.swift */; };
-		9A07E3B425D216E3569515FE136E60FD /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C2C1FB74B74EEC20409BAB005D318 /* APIError.swift */; };
-		A4D62D7426311B82FD2ED62CCDF4CA54 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC161B063AB11CFB366735DEDB5D2FC /* CacheKey.swift */; };
-		A68200006C85DF071DB747A87CD8CE4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AAC7B44559DC9F69B29EF48E2468DDDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		ABF0B1F5A25F27D7D70D5E4F47B23EB5 /* RequestOrchestratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC158625568F5C9FEAD7A244374ABC2D /* RequestOrchestratorProtocol.swift */; };
-		B0C269CCD58F182519AED0F64F9E903E /* Pods-TQIBank-TQIBankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F0C56B4CEA9C0529CEF3D3CC128606 /* Pods-TQIBank-TQIBankUITests-dummy.m */; };
-		B67A52C033D8A71FFBF9B24F7951C7E0 /* RequestOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1193DC8405F3331789AB280FADB7987 /* RequestOrchestrator.swift */; };
-		E29B8C4BFA73A24F18416B00F58AEC1F /* Pods-TQIBank-TQIBankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE24D5127361D266FBE6A530331DF0B /* Pods-TQIBank-TQIBankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB96E01569599286482217BF273439BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FA3F79D4130295D720BC65D6B651EAD6 /* RequestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F787411FCDDE6D8BE8C6117946DCA77D /* RequestLogger.swift */; };
-		FDEB031112598C1F9CF7C51DDFA53CE5 /* RequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BAB4DFBA1FAA63EEDDD10144145020 /* RequestHeader.swift */; };
+		006FB3ECF3EE7DA8565F549F272E8196 /* ExtractTransactionSwiftUICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAABE11D5C55397A24C37EF5A95BED /* ExtractTransactionSwiftUICell.swift */; };
+		01C6DD13501A3FDDBB848A2D9B6F68CC /* Pods-TQIBank-TQIBankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C21A601E5724DD10B973F8B4175B33 /* Pods-TQIBank-TQIBankUITests-dummy.m */; };
+		06EF21B267728799FD7B0140F38AAE9D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973A36FBBF0C46B2B594D0534D04C41 /* BaseViewController.swift */; };
+		0AF48FF07D3F6F08C874780E531C5DF4 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C12F851F9F7457210647E3184B96E5 /* URLParameterEncoding.swift */; };
+		0E30EAC269D19D7D8A1439989E8C4C92 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6950FFBBA87222FF772C091B937264BE /* CacheKey.swift */; };
+		11ED01EBFA26AA30EBC1D6D5FB8EC150 /* TQICoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D446CE0778E16406F457F4BECBF2E296 /* TQICoordinator-dummy.m */; };
+		14B5E3365787A6344F2118471B6FBDE7 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A6D13692DDAD548AE30126490C14A /* Disk.swift */; };
+		1D6D1EDA00B31E21ED466297163103A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		21D26DF0609C344EB5AC9779DF141C25 /* TQIExtract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E75C55A696F10E86A51A57F3F85452D6 /* TQIExtract-dummy.m */; };
+		22600D569E6E67CBB19663B4012CCAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2396C1644D04E7A5AC5EE7CB562BE1BE /* ExtractService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF8BDDD1A416F352FECF2F0434E32A /* ExtractService.swift */; };
+		24ECD384AB3087DF9897196B5F9E238C /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDE7320BBBA282E65C61481ABD8A20 /* RequestExecutor.swift */; };
+		2CBFED6374C2FCDED147DE5FCD9147C5 /* VFNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9546C6476D3E9D894ACD176CB6C9B065 /* VFNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E4636E1B3DAF28667932E69748783B8 /* ExtractCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868F98D7668DB9B61CF4D0E47969420 /* ExtractCoordinator.swift */; };
+		2E85C1E83AC3E0B4A6CC8E89057FE656 /* RequestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3138FB91AB25807841C95BF18F933ED4 /* RequestHeader.swift */; };
+		32A54AED8BFF4C35DCDEB1BBDF40DBB8 /* ExtractListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070766FDCFC1955B0BE4399B349B8D5D /* ExtractListViewController.swift */; };
+		347BEF1B1AE1378A7FBF05768E4F1FBE /* JSONMockOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF736999F9366392A81CFB797E2139 /* JSONMockOrchestrator.swift */; };
+		34D32F3D05321DCA97A52D7CC5DAAB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		39B5D563B3DD65CC5C32DF006770DC01 /* RouterLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDC9AB8AF29D43ABFA6243562EFA73 /* RouterLocation.swift */; };
+		3C5DEDCBE3E13988D7D8DA52E30E4D2D /* JSONParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE1B19597C5D8270B6B34179344172 /* JSONParameterEncoding.swift */; };
+		3D1750A73939E3255C8BE14B41B184F4 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A27C3DC624CCE709A27C0D332A152 /* RequestService.swift */; };
+		42EACF188CF0A839C6786C69DAC364F9 /* VCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DC76D1ECF06F50AE9C3D6CF33215A /* VCodable.swift */; };
+		457C2290F73BB07A4A355986356B7FB8 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE09F439370AF945B3C4E7BF00021CC8 /* ParameterEncoding.swift */; };
+		471DB5DCC7A72D307012D7F9174BDCAD /* LoadingViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B9B94AFEC4D10FC998AE14E0CE33F /* LoadingViewSwiftUI.swift */; };
+		4D896652DB9D272301306B33BF5AB4CA /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F207BB7697CC395A4EA4487B30598B /* URLPath.swift */; };
+		54C1FFC30DE2F5AF2A517BA01C78A854 /* CoordinatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D609336DD6E1A0FF88B4E27E525260 /* CoordinatorPresenter.swift */; };
+		581990323C6AC17FB91F5767E38F5F87 /* VFNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF8A6F85B07DD6D2C3E9D75E5C81F2 /* VFNetwork-dummy.m */; };
+		594C09EE71FCD174E4A69DACB2FDA172 /* ExtractListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8142FB5D9D4E7818A6848882FD69B7 /* ExtractListSwiftUIView.swift */; };
+		5BEDD6175F41F0DBBD62B15DFE86CD82 /* TQICoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D5045E23CA26042DB4B0D325186681 /* TQICoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D1D6BB93CAA221076A77A27E8A7ABF0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ADAA7406B35842403A5987677E62CA /* HTTPMethod.swift */; };
+		60AD3E3713E06DC00CB62700BA3880AD /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A36831A07EF6D651F325FE4ADEAD8 /* APIError.swift */; };
+		6BCD6DAB3A13961AE991B4BB308D3804 /* Pods-TQIBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9400D8E77E467E724D809E831A455854 /* Pods-TQIBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DED04680CAB5656D8B243C6606B9669 /* ExtractTransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FFCC52D2E7C746846B17DB8B7C0819 /* ExtractTransactionCell.xib */; };
+		7162E4B25105252C1A7B93DF8003A5AE /* APIBuilder+BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B08CB2ED45944B7822203A156543F /* APIBuilder+BaseURL.swift */; };
+		72B6D830E1512ECC52A6F8899031C968 /* JSONMockContentFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9494CB19375E7F56B69CE9E13D1229D0 /* JSONMockContentFile.swift */; };
+		76436A72C1E72532951B3FB0B2A974BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		79D29217EB8D260DBB11D62629A4E821 /* Pods-TQIBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7F1E247425E821A6AD36523ECD7377 /* Pods-TQIBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F7110035C607565DB9E5C966F354AD2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1D24CCA54D1B36CB3DC8730ADC482 /* UIView+Extension.swift */; };
+		7F9AC40016822EA2ED5C5B3FAACDBAD3 /* TQIExtract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7797075DB7A5C299638FE1636B899444 /* TQIExtract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875473C66B7FE252823A26EDC9608ACF /* ExtractAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E4F0650EC21FECC7ADE39C5888E1 /* ExtractAPI.swift */; };
+		8A88C69EBF8A06712DFC3BB717609E64 /* RequestOrchestratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B6980B2412514FBC7FC49CB5F994A /* RequestOrchestratorProtocol.swift */; };
+		8EA2B1DCD4CB4BB023A27DD420CA98C9 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DA3429D019ECB519B5020BF909DC2 /* HTTPTask.swift */; };
+		91BB4D7F3A1D7F2C2404E310CEA55BA0 /* ExtractListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CA0F97BDB9C316BCD0006F318F1358 /* ExtractListViewController.xib */; };
+		9204F9BB58A6851FC9EE9A7B56770871 /* ExtractListSwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11284CA23429C628C4FED477908B5B /* ExtractListSwiftUIViewModel.swift */; };
+		970B36A638D2020DDE0B4598918FBB67 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FACF2AC30EC9500E27CE4F977E22CF /* Errors.swift */; };
+		A5CAA68A6E8DF000FDE920F9EE11B8ED /* RequestOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49E116E4E9E55EDBD72852F0806549 /* RequestOrchestrator.swift */; };
+		AADFA192216A17C181DB4413948B14EE /* Pods-TQIBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6276A58484762E9C8F7C19CC6B9F084 /* Pods-TQIBankTests-dummy.m */; };
+		ADA8D3BE62F97C9A04D22C5C0CA6BBA9 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF413D9DF007FE2B223F5F03A08BA97E /* Environment.swift */; };
+		B86C0FBD67AA5FA80216F0C45CE77339 /* Pods-TQIBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F02BCF9123DAE62D5D6C96AD275D95DD /* Pods-TQIBank-dummy.m */; };
+		B91417A1BFF5AF0013C36095136FA849 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB06693312E8E699FE8424FC78576B /* Cache.swift */; };
+		BBF6B86555CE9987C3C98E904FF83FEF /* ExtractListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F668844C34CD1D331188877772A843F6 /* ExtractListViewModel.swift */; };
+		CF68D561FEE0F8C86EF9F21A04BD08D7 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3D7B174147E81A317F09BE4148BD1 /* RequestProvider.swift */; };
+		D0191E0378D763D997DC0C6ADA195146 /* RequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD407283102587061A0ED29C8A2CA3 /* RequestBuilderProtocol.swift */; };
+		D1FEC3E686E99D809F6CCC6056BFAE3D /* Pods-TQIBank-TQIBankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 357A1F43049C5D02066688A41F8C44F5 /* Pods-TQIBank-TQIBankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC7F497C213F422AEDEF3F217247F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DD33F833F5E49348033D090BE64B9CF5 /* TQIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E35E60B0E4FAC22441253841973CF42 /* TQIRouter.swift */; };
+		DDC7469D442EE33EC65EFF64ED6D6BE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E40C9DDC4428EE56A016D81ADF4DD453 /* ExtractModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DCAFC2C46456548510F68371B9EB1C /* ExtractModel.swift */; };
+		E61A9F94F2ECE71F6C54327EB6654D77 /* ExtractTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017948341B3253E2AE35D150A2A279A /* ExtractTransactionCell.swift */; };
+		E676BBFC7D9287F3CDB38C22C1A4E85F /* RequestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A004266E99F76779C5AC31E29EB0F76A /* RequestLogger.swift */; };
+		EF2CF2E4AE00AE48BD0E5C6FAB2F3963 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A485377BB15E23BE7C8CB1BB0AEA94AE /* Cacheable.swift */; };
+		F1666448458EB0C9A1CC57FF392E6407 /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7271D103B876C711076C5F7C495C8A6E /* APIBuilder.swift */; };
+		F452C4AC3026A6429A0CA7EBBCBEB8A4 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E102066058B553D303F62B711790D3 /* UITableView+Extension.swift */; };
+		FDC733324AA47F1053A549C8806FC30D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC31A793928E5EC8BC630E93CFED05 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		810C29DBFD41A346641C5662BE737234 /* PBXContainerItemProxy */ = {
+		219DC96D9CF2C8A3468A6AEDD037DB84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 827CEA5250DB46BE6C2957372FF12C0C;
 			remoteInfo = VFNetwork;
 		};
-		E17C999213018E1BED1FCED0999F33E8 /* PBXContainerItemProxy */ = {
+		608189423324943BC04997090E900AB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 827CEA5250DB46BE6C2957372FF12C0C;
-			remoteInfo = VFNetwork;
+			remoteGlobalIDString = 96CFB85F8D4CB5A6459EFEAA9D4822D8;
+			remoteInfo = TQIExtract;
 		};
-		E9287EFD823DBA7CF8774F215F8FA6C8 /* PBXContainerItemProxy */ = {
+		6ED2FA1EF4F64880306C0912F120ABEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D25C0B720B0CD3DC3AC1893086AEF6;
+			remoteInfo = TQICoordinator;
+		};
+		76E0059D5F02D442F5CBAC0A6D50A3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CFB85F8D4CB5A6459EFEAA9D4822D8;
+			remoteInfo = TQIExtract;
+		};
+		93ECC67909EED8B89E68049BC0ACF156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4DC67CE68D38F7F1E1B31EDAA88E5EBF;
 			remoteInfo = "Pods-TQIBank";
 		};
+		E1F255419970C17001D2268F080D7F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D25C0B720B0CD3DC3AC1893086AEF6;
+			remoteInfo = TQICoordinator;
+		};
+		E6B48DC9ADE4126C077C6CE2C850D1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827CEA5250DB46BE6C2957372FF12C0C;
+			remoteInfo = VFNetwork;
+		};
+		E7FABB7EB075CAC90DE07759AC5B24EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827CEA5250DB46BE6C2957372FF12C0C;
+			remoteInfo = VFNetwork;
+		};
+		EDC84328E1EF18AAB5D1745218BFA442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D25C0B720B0CD3DC3AC1893086AEF6;
+			remoteInfo = TQICoordinator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E0F89F9D72A4056C5E59FB59BEB129 /* VFNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VFNetwork.release.xcconfig; sourceTree = "<group>"; };
-		0A7FB8915CF283EEE10C6A5721244E38 /* Pods_TQIBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TQIBank.framework; path = "Pods-TQIBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE5DD1669925395D1E6BCF1D68F772C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Sources/VFNetwork/Encoding/ParameterEncoding.swift; sourceTree = "<group>"; };
-		0D7C2C1FB74B74EEC20409BAB005D318 /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = Sources/VFNetwork/API/APIError.swift; sourceTree = "<group>"; };
-		0DA9D961AB28212AD16A5F67AA7442D9 /* HTTPTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTask.swift; path = Sources/VFNetwork/HTTP/HTTPTask.swift; sourceTree = "<group>"; };
-		0F4A2162A8145A4D47EE8994D8773FC4 /* Pods-TQIBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TQIBank-dummy.m"; sourceTree = "<group>"; };
-		12B78A2247F5D4F16D588257534F75C3 /* APIBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIBuilder.swift; path = Sources/VFNetwork/API/APIBuilder.swift; sourceTree = "<group>"; };
-		14FFDBE83493A3EBDFD241096F08FDDA /* Pods-TQIBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TQIBank-acknowledgements.markdown"; sourceTree = "<group>"; };
-		174D0A58D21B2D0636A02EAAD16E20B9 /* Pods-TQIBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TQIBank.modulemap"; sourceTree = "<group>"; };
-		20BEBAB0A24E4C00EEBFF34E9B1D74C2 /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Sources/VFNetwork/Environment/Environment.swift; sourceTree = "<group>"; };
-		22A686ABB1E85C16F5AA6EA123EEB19E /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank-TQIBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2EE24D5127361D266FBE6A530331DF0B /* Pods-TQIBank-TQIBankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TQIBank-TQIBankUITests-umbrella.h"; sourceTree = "<group>"; };
-		33DCEBABAE772C157397DCFA1EB6795A /* Pods-TQIBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank.release.xcconfig"; sourceTree = "<group>"; };
-		3F3A06B22BBA5AED33D54EE4CE705549 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/VFNetwork/HTTP/HTTPMethod.swift; sourceTree = "<group>"; };
-		40AF5E4303E6CC09760D9561E6A88985 /* Pods-TQIBank-TQIBankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TQIBank-TQIBankUITests.modulemap"; sourceTree = "<group>"; };
-		42201DF7EA787A1DAA7B9DBF84474CE0 /* VFNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VFNetwork-Info.plist"; sourceTree = "<group>"; };
-		47BAB4DFBA1FAA63EEDDD10144145020 /* RequestHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeader.swift; path = Sources/VFNetwork/Service/RequestHeader.swift; sourceTree = "<group>"; };
-		4969654BDDEBB72225FDFCD7C815CBEA /* VFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VFNetwork.framework; path = VFNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D33F1F27F55FB5ED7DEFC9E9D1A1A47 /* VFNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VFNetwork-dummy.m"; sourceTree = "<group>"; };
-		5AB7FEFF39D8964A9397ECE618EC6CC2 /* VFNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VFNetwork-umbrella.h"; sourceTree = "<group>"; };
-		5F551BF3A49D0BDF34C970468B25E996 /* Pods-TQIBank-TQIBankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-TQIBankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		625A426B96131BBB9A55A2510411C1DF /* JSONMockContentFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMockContentFile.swift; path = Sources/VFNetwork/Json/JSONMockContentFile.swift; sourceTree = "<group>"; };
-		64D13D1887B24D2388CA6D51A8E21651 /* Pods-TQIBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TQIBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69623D151A3DD8405A66D6B4A656DC43 /* RequestProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestProvider.swift; path = Sources/VFNetwork/Service/RequestProvider.swift; sourceTree = "<group>"; };
-		6AB0949F020B415C858763E6544E7C91 /* Pods-TQIBank-TQIBankUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-TQIBankUITests-Info.plist"; sourceTree = "<group>"; };
+		03FACF2AC30EC9500E27CE4F977E22CF /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = TQICoordinator/Classes/Errors.swift; sourceTree = "<group>"; };
+		070766FDCFC1955B0BE4399B349B8D5D /* ExtractListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractListViewController.swift; path = TQIExtract/Classes/Extract/List/View/ExtractListViewController.swift; sourceTree = "<group>"; };
+		07E102066058B553D303F62B711790D3 /* UITableView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "TQIExtract/Classes/Utils/Extensions/UITableView+Extension.swift"; sourceTree = "<group>"; };
+		0A7FB8915CF283EEE10C6A5721244E38 /* Pods-TQIBank */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TQIBank"; path = Pods_TQIBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD1D24CCA54D1B36CB3DC8730ADC482 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "TQIExtract/Classes/Utils/Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
+		0E0B6980B2412514FBC7FC49CB5F994A /* RequestOrchestratorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOrchestratorProtocol.swift; path = Sources/VFNetwork/Service/Protocols/RequestOrchestratorProtocol.swift; sourceTree = "<group>"; };
+		12F7E4F0650EC21FECC7ADE39C5888E1 /* ExtractAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractAPI.swift; path = TQIExtract/Classes/Extract/List/Service/ExtractAPI.swift; sourceTree = "<group>"; };
+		13C52922576ABC4667F0AD273F794F95 /* Pods-TQIBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-acknowledgements.plist"; sourceTree = "<group>"; };
+		1973A36FBBF0C46B2B594D0534D04C41 /* BaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = TQIExtract/Classes/Utils/Controller/BaseViewController.swift; sourceTree = "<group>"; };
+		19A2DF7AE3CD6D0C91641F30A48E560E /* Pods-TQIBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TQIBankTests.modulemap"; sourceTree = "<group>"; };
+		1BE3D7B174147E81A317F09BE4148BD1 /* RequestProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestProvider.swift; path = Sources/VFNetwork/Service/RequestProvider.swift; sourceTree = "<group>"; };
+		1EC9D349453A72CE11583C66E5A33C52 /* Pods-TQIBank-TQIBankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TQIBank-TQIBankUITests.modulemap"; sourceTree = "<group>"; };
+		1ED502E0A0BF8DD0F3C4AC6389CED512 /* Pods-TQIBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TQIBank-frameworks.sh"; sourceTree = "<group>"; };
+		25F207BB7697CC395A4EA4487B30598B /* URLPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPath.swift; path = Sources/VFNetwork/HTTP/URLPath.swift; sourceTree = "<group>"; };
+		28E2A414395F357D4CFE9D4BFD9F0FCC /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank-TQIBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B7B9B94AFEC4D10FC998AE14E0CE33F /* LoadingViewSwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingViewSwiftUI.swift; path = TQIExtract/Classes/Utils/Views/LoadingViewSwiftUI.swift; sourceTree = "<group>"; };
+		2DCDE7320BBBA282E65C61481ABD8A20 /* RequestExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestExecutor.swift; path = Sources/VFNetwork/Service/RequestExecutor.swift; sourceTree = "<group>"; };
+		3138FB91AB25807841C95BF18F933ED4 /* RequestHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeader.swift; path = Sources/VFNetwork/Service/RequestHeader.swift; sourceTree = "<group>"; };
+		316981B12263E196D29AAA348660C88E /* TQIExtract-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TQIExtract-Info.plist"; sourceTree = "<group>"; };
+		33ADAA7406B35842403A5987677E62CA /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/VFNetwork/HTTP/HTTPMethod.swift; sourceTree = "<group>"; };
+		357A1F43049C5D02066688A41F8C44F5 /* Pods-TQIBank-TQIBankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TQIBank-TQIBankUITests-umbrella.h"; sourceTree = "<group>"; };
+		392E21B6E245367AB7863823AF9841CD /* Pods-TQIBank-TQIBankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-TQIBankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E35E60B0E4FAC22441253841973CF42 /* TQIRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TQIRouter.swift; path = TQICoordinator/Classes/TQIRouter.swift; sourceTree = "<group>"; };
+		3EBC31A793928E5EC8BC630E93CFED05 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = TQICoordinator/Classes/Coordinator.swift; sourceTree = "<group>"; };
+		400059D51B681453761072FF84984AE8 /* Pods-TQIBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4969654BDDEBB72225FDFCD7C815CBEA /* VFNetwork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VFNetwork; path = VFNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C12F851F9F7457210647E3184B96E5 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLParameterEncoding.swift; path = Sources/VFNetwork/Encoding/URLParameterEncoding.swift; sourceTree = "<group>"; };
+		4B11284CA23429C628C4FED477908B5B /* ExtractListSwiftUIViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractListSwiftUIViewModel.swift; path = TQIExtract/Classes/Extract/List/ViewModel/ExtractListSwiftUIViewModel.swift; sourceTree = "<group>"; };
+		5000718681CBA575CD47D65DA77136EB /* Pods-TQIBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank.debug.xcconfig"; sourceTree = "<group>"; };
+		593535077DABBC03A6B4149DF4D4B02B /* TQICoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TQICoordinator.modulemap; sourceTree = "<group>"; };
+		5DE415F809DE2B6B5F06D24B46CD7635 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank-TQIBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E90DF11410ED81A14B293F989A8A76D /* Pods-TQIBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TQIBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6017948341B3253E2AE35D150A2A279A /* ExtractTransactionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractTransactionCell.swift; path = TQIExtract/Classes/Extract/List/View/Cell/ExtractTransactionCell.swift; sourceTree = "<group>"; };
+		6045D90DF78CE038BBABB08E097DE461 /* Pods-TQIBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TQIBank-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66D609336DD6E1A0FF88B4E27E525260 /* CoordinatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinatorPresenter.swift; path = TQICoordinator/Classes/CoordinatorPresenter.swift; sourceTree = "<group>"; };
+		67EEDEA65A74B05BB1D94780542DB64D /* TQIExtract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TQIExtract-prefix.pch"; sourceTree = "<group>"; };
+		68EAABE11D5C55397A24C37EF5A95BED /* ExtractTransactionSwiftUICell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractTransactionSwiftUICell.swift; path = TQIExtract/Classes/Extract/List/View/Cell/ExtractTransactionSwiftUICell.swift; sourceTree = "<group>"; };
+		6950FFBBA87222FF772C091B937264BE /* CacheKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheKey.swift; path = Sources/VFNetwork/Cache/Enum/CacheKey.swift; sourceTree = "<group>"; };
+		6D976D4851441E33F8FBDCA74EA062E0 /* TQICoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TQICoordinator-prefix.pch"; sourceTree = "<group>"; };
+		6E49E116E4E9E55EDBD72852F0806549 /* RequestOrchestrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOrchestrator.swift; path = Sources/VFNetwork/Service/RequestOrchestrator.swift; sourceTree = "<group>"; };
+		71DCAFC2C46456548510F68371B9EB1C /* ExtractModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractModel.swift; path = TQIExtract/Classes/Extract/List/Model/ExtractModel.swift; sourceTree = "<group>"; };
+		7271D103B876C711076C5F7C495C8A6E /* APIBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIBuilder.swift; path = Sources/VFNetwork/API/APIBuilder.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C4B12DC9BAA3D577010AA5A81222B3A /* APIBuilder+BaseURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "APIBuilder+BaseURL.swift"; path = "Sources/VFNetwork/API/APIBuilder+BaseURL.swift"; sourceTree = "<group>"; };
-		819EF57E065C81713557EBE968E02D8A /* VFNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VFNetwork.debug.xcconfig; sourceTree = "<group>"; };
-		8A460AF498AAC4AE191646E76DCE4DB1 /* RequestService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestService.swift; path = Sources/VFNetwork/Service/RequestService.swift; sourceTree = "<group>"; };
-		8BD633E89F4D84E4AD41CAB9FF75186C /* RequestExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestExecutor.swift; path = Sources/VFNetwork/Service/RequestExecutor.swift; sourceTree = "<group>"; };
-		8C84CD60F38930014AD93EF31F7BB415 /* Pods-TQIBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TQIBankTests-umbrella.h"; sourceTree = "<group>"; };
-		94F0C56B4CEA9C0529CEF3D3CC128606 /* Pods-TQIBank-TQIBankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TQIBank-TQIBankUITests-dummy.m"; sourceTree = "<group>"; };
-		950CFFEF51B15C78BA4987DE869B9A67 /* Pods-TQIBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TQIBankTests-dummy.m"; sourceTree = "<group>"; };
+		76F9DBF1B872A7A96E0FA23FF0ED2B3D /* Pods-TQIBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank.release.xcconfig"; sourceTree = "<group>"; };
+		7797075DB7A5C299638FE1636B899444 /* TQIExtract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TQIExtract-umbrella.h"; sourceTree = "<group>"; };
+		77AF8BDDD1A416F352FECF2F0434E32A /* ExtractService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractService.swift; path = TQIExtract/Classes/Extract/List/Service/ExtractService.swift; sourceTree = "<group>"; };
+		7A2B964DE0D360D3AA9B48A6E2D2527C /* Pods-TQIBank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TQIBank-resources.sh"; sourceTree = "<group>"; };
+		7F30A0841CCDEB374406C5A00BAEC5BC /* Pods-TQIBank-TQIBankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TQIBank-TQIBankUITests-frameworks.sh"; sourceTree = "<group>"; };
+		81FFCC52D2E7C746846B17DB8B7C0819 /* ExtractTransactionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ExtractTransactionCell.xib; path = TQIExtract/Classes/Extract/List/View/Cell/ExtractTransactionCell.xib; sourceTree = "<group>"; };
+		885B08CB2ED45944B7822203A156543F /* APIBuilder+BaseURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "APIBuilder+BaseURL.swift"; path = "Sources/VFNetwork/API/APIBuilder+BaseURL.swift"; sourceTree = "<group>"; };
+		8B7F1E247425E821A6AD36523ECD7377 /* Pods-TQIBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TQIBank-umbrella.h"; sourceTree = "<group>"; };
+		8E16297C846498F13F1FB68A34D2A3E9 /* Pods-TQIBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9400D8E77E467E724D809E831A455854 /* Pods-TQIBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TQIBankTests-umbrella.h"; sourceTree = "<group>"; };
+		9494CB19375E7F56B69CE9E13D1229D0 /* JSONMockContentFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMockContentFile.swift; path = Sources/VFNetwork/Json/JSONMockContentFile.swift; sourceTree = "<group>"; };
+		94FC9E828220D52A6F86247CC0D15897 /* TQICoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TQICoordinator.release.xcconfig; sourceTree = "<group>"; };
+		9546C6476D3E9D894ACD176CB6C9B065 /* VFNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VFNetwork-umbrella.h"; sourceTree = "<group>"; };
+		97C21A601E5724DD10B973F8B4175B33 /* Pods-TQIBank-TQIBankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TQIBank-TQIBankUITests-dummy.m"; sourceTree = "<group>"; };
+		98411A547555A65EF55A35A8F038A219 /* TQICoordinator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TQICoordinator; path = TQICoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D96DC1CAB8416859FCE495459FD2819 /* URLPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLPath.swift; path = Sources/VFNetwork/HTTP/URLPath.swift; sourceTree = "<group>"; };
-		A03A5B2A2F7B8F59E471C001C6A9C35C /* Pods_TQIBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TQIBankTests.framework; path = "Pods-TQIBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A13303849B6C096EA60B2418C405D5BD /* Pods-TQIBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBankTests.release.xcconfig"; sourceTree = "<group>"; };
-		A9B048E41D4456193452B29FE92FF659 /* Pods-TQIBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB4BF55E195A6AAF65DA81C30584121E /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/VFNetwork/Cache/Disk.swift; sourceTree = "<group>"; };
-		AD847C687601A7AE547FB894C5A58A2C /* Pods-TQIBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TQIBank-frameworks.sh"; sourceTree = "<group>"; };
-		AEB04D014BB423F48A8206755464A60E /* VFNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VFNetwork.modulemap; sourceTree = "<group>"; };
-		B6A3A33072081C4185D5C6F65BB9FA42 /* Pods-TQIBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2F46E49AC62D58EEF775A2DD08F4795 /* JSONMockOrchestrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMockOrchestrator.swift; path = Sources/VFNetwork/Json/JSONMockOrchestrator.swift; sourceTree = "<group>"; };
-		C3BB09B9A6CEA55D37F451985B874909 /* Pods-TQIBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank.debug.xcconfig"; sourceTree = "<group>"; };
-		C7EF8FC1A11862E1537EFD767F06A330 /* Pods-TQIBankTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBankTests-Info.plist"; sourceTree = "<group>"; };
-		CA902364BE194B741AA9BB1E0C19F1C2 /* Cacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cacheable.swift; path = Sources/VFNetwork/Cache/Protocol/Cacheable.swift; sourceTree = "<group>"; };
-		CBC161B063AB11CFB366735DEDB5D2FC /* CacheKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheKey.swift; path = Sources/VFNetwork/Cache/Enum/CacheKey.swift; sourceTree = "<group>"; };
-		CE1133ED91C51E5F104396B3F337A476 /* Pods-TQIBank-TQIBankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TQIBank-TQIBankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF4321C88C4E51F92F4FFA3B68CE2AEC /* Pods-TQIBank-TQIBankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TQIBank-TQIBankUITests-frameworks.sh"; sourceTree = "<group>"; };
-		D1193DC8405F3331789AB280FADB7987 /* RequestOrchestrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOrchestrator.swift; path = Sources/VFNetwork/Service/RequestOrchestrator.swift; sourceTree = "<group>"; };
-		DC158625568F5C9FEAD7A244374ABC2D /* RequestOrchestratorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestOrchestratorProtocol.swift; path = Sources/VFNetwork/Service/Protocols/RequestOrchestratorProtocol.swift; sourceTree = "<group>"; };
-		DDE3A79CB0D06D6C0E17AD2C2DFE58E2 /* Pods_TQIBank_TQIBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TQIBank_TQIBankUITests.framework; path = "Pods-TQIBank-TQIBankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF2BD6EA81106F09BEFDBF5F92CA5581 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBank-TQIBankUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E5558B419050EF1E1EF0D16FF4166B89 /* VFNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VFNetwork-prefix.pch"; sourceTree = "<group>"; };
-		E5925D5D8747F3011BBB669A69552F7D /* VCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VCodable.swift; path = Sources/VFNetwork/HTTP/VCodable.swift; sourceTree = "<group>"; };
-		E85AD395B3BDDFCB1D80D74FCC166BFA /* Pods-TQIBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TQIBankTests.modulemap"; sourceTree = "<group>"; };
-		E890DD2DB731A24656AE6CBE9E10274E /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Sources/VFNetwork/Cache/Cache.swift; sourceTree = "<group>"; };
-		EC0E4B78190689B78382B7F5DFC19DD4 /* Pods-TQIBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBankTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED7C5FE2AF49985A7D4ED8BC0CEEA4A3 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLParameterEncoding.swift; path = Sources/VFNetwork/Encoding/URLParameterEncoding.swift; sourceTree = "<group>"; };
-		F0163FDB6FFB36B8395EB53D12FB7F9D /* JSONParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParameterEncoding.swift; path = Sources/VFNetwork/Encoding/JSONParameterEncoding.swift; sourceTree = "<group>"; };
-		F13DA40962013041B4FCE36E81A389F7 /* RequestBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBuilderProtocol.swift; path = Sources/VFNetwork/Service/Protocols/RequestBuilderProtocol.swift; sourceTree = "<group>"; };
-		F787411FCDDE6D8BE8C6117946DCA77D /* RequestLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestLogger.swift; path = Sources/VFNetwork/Service/RequestLogger.swift; sourceTree = "<group>"; };
-		F7E681DF5E28908A6EFECA01E332B76F /* Pods-TQIBank-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-Info.plist"; sourceTree = "<group>"; };
-		FCF2A51A28DAC138148747D6206FC915 /* Pods-TQIBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TQIBank-umbrella.h"; sourceTree = "<group>"; };
+		A004266E99F76779C5AC31E29EB0F76A /* RequestLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestLogger.swift; path = Sources/VFNetwork/Service/RequestLogger.swift; sourceTree = "<group>"; };
+		A03A5B2A2F7B8F59E471C001C6A9C35C /* Pods-TQIBankTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TQIBankTests"; path = Pods_TQIBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A485377BB15E23BE7C8CB1BB0AEA94AE /* Cacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cacheable.swift; path = Sources/VFNetwork/Cache/Protocol/Cacheable.swift; sourceTree = "<group>"; };
+		A5B948753356D38F7ADC1F6127339B2E /* Pods-TQIBank-TQIBankUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TQIBank-TQIBankUITests-resources.sh"; sourceTree = "<group>"; };
+		A73407D34F1F4B8F574B413E7AB63C84 /* Pods-TQIBank-TQIBankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TQIBank-TQIBankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7740087C393312C3B11002B92E9B784 /* TQICoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TQICoordinator-Info.plist"; sourceTree = "<group>"; };
+		A7D5045E23CA26042DB4B0D325186681 /* TQICoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TQICoordinator-umbrella.h"; sourceTree = "<group>"; };
+		A868F98D7668DB9B61CF4D0E47969420 /* ExtractCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractCoordinator.swift; path = TQIExtract/Classes/Coordinator/ExtractCoordinator.swift; sourceTree = "<group>"; };
+		B0BDC9AB8AF29D43ABFA6243562EFA73 /* RouterLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterLocation.swift; path = TQICoordinator/Classes/RouterLocation.swift; sourceTree = "<group>"; };
+		B277A6F6B77596E65E99D599BCB7AC9A /* TQIExtract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TQIExtract.modulemap; sourceTree = "<group>"; };
+		B2CA0F97BDB9C316BCD0006F318F1358 /* ExtractListViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ExtractListViewController.xib; path = TQIExtract/Classes/Extract/List/View/ExtractListViewController.xib; sourceTree = "<group>"; };
+		B520975427243BB7E97A8B1AFFFA8FD8 /* TQIExtract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TQIExtract.release.xcconfig; sourceTree = "<group>"; };
+		B68A6D13692DDAD548AE30126490C14A /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/VFNetwork/Cache/Disk.swift; sourceTree = "<group>"; };
+		B6EF8A6F85B07DD6D2C3E9D75E5C81F2 /* VFNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VFNetwork-dummy.m"; sourceTree = "<group>"; };
+		BA6DF02ED3C9A3ED1B8CD98E9141A651 /* VFNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VFNetwork.modulemap; sourceTree = "<group>"; };
+		D1638F9C008D980923733131EDA78C0A /* Pods-TQIBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TQIBank.modulemap"; sourceTree = "<group>"; };
+		D446CE0778E16406F457F4BECBF2E296 /* TQICoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TQICoordinator-dummy.m"; sourceTree = "<group>"; };
+		D62A27C3DC624CCE709A27C0D332A152 /* RequestService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestService.swift; path = Sources/VFNetwork/Service/RequestService.swift; sourceTree = "<group>"; };
+		D776A09999E6B43861442FB34DD43548 /* Pods-TQIBank-TQIBankUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-TQIBankUITests-Info.plist"; sourceTree = "<group>"; };
+		D7FF736999F9366392A81CFB797E2139 /* JSONMockOrchestrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMockOrchestrator.swift; path = Sources/VFNetwork/Json/JSONMockOrchestrator.swift; sourceTree = "<group>"; };
+		D951B851F48A37169C72726E1FA75A90 /* TQIExtractAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TQIExtractAssets.xcassets; path = TQIExtract/Assets/TQIExtractAssets.xcassets; sourceTree = "<group>"; };
+		DC27EC1A088A0E7E6A846DC27089B8E6 /* VFNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VFNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		DDE3A79CB0D06D6C0E17AD2C2DFE58E2 /* Pods-TQIBank-TQIBankUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TQIBank-TQIBankUITests"; path = Pods_TQIBank_TQIBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8142FB5D9D4E7818A6848882FD69B7 /* ExtractListSwiftUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractListSwiftUIView.swift; path = TQIExtract/Classes/Extract/List/View/ExtractListSwiftUIView.swift; sourceTree = "<group>"; };
+		E0FB06693312E8E699FE8424FC78576B /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Sources/VFNetwork/Cache/Cache.swift; sourceTree = "<group>"; };
+		E13A36831A07EF6D651F325FE4ADEAD8 /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = Sources/VFNetwork/API/APIError.swift; sourceTree = "<group>"; };
+		E3BAA584431253504098473525DDBCA8 /* TQIExtract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TQIExtract.debug.xcconfig; sourceTree = "<group>"; };
+		E5D2BB361C7F7A092CE79CA01D0F97EE /* TQIExtract */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TQIExtract; path = TQIExtract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6276A58484762E9C8F7C19CC6B9F084 /* Pods-TQIBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TQIBankTests-dummy.m"; sourceTree = "<group>"; };
+		E75C55A696F10E86A51A57F3F85452D6 /* TQIExtract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TQIExtract-dummy.m"; sourceTree = "<group>"; };
+		EC4643449FFF98ADE031F5DADFAC1613 /* Pods-TQIBankTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBankTests-Info.plist"; sourceTree = "<group>"; };
+		EEC14AB1616A9247523955B3C4FB93F9 /* TQICoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TQICoordinator.debug.xcconfig; sourceTree = "<group>"; };
+		EF413D9DF007FE2B223F5F03A08BA97E /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Sources/VFNetwork/Environment/Environment.swift; sourceTree = "<group>"; };
+		F025A886235CE47E5A6F8489C42B90D8 /* Pods-TQIBank-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TQIBank-Info.plist"; sourceTree = "<group>"; };
+		F02BCF9123DAE62D5D6C96AD275D95DD /* Pods-TQIBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TQIBank-dummy.m"; sourceTree = "<group>"; };
+		F2F11B247CADC9F0F1C608467217E01A /* Pods-TQIBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TQIBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		F36DA3429D019ECB519B5020BF909DC2 /* HTTPTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTask.swift; path = Sources/VFNetwork/HTTP/HTTPTask.swift; sourceTree = "<group>"; };
+		F5DD407283102587061A0ED29C8A2CA3 /* RequestBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBuilderProtocol.swift; path = Sources/VFNetwork/Service/Protocols/RequestBuilderProtocol.swift; sourceTree = "<group>"; };
+		F668844C34CD1D331188877772A843F6 /* ExtractListViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtractListViewModel.swift; path = TQIExtract/Classes/Extract/List/ViewModel/ExtractListViewModel.swift; sourceTree = "<group>"; };
+		F9120D27048FDF8B21E24B3F6D626E57 /* VFNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VFNetwork.release.xcconfig; sourceTree = "<group>"; };
+		FA92028EC0A2E61F22E2A21D2241B2A2 /* VFNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VFNetwork-Info.plist"; sourceTree = "<group>"; };
+		FD8DC76D1ECF06F50AE9C3D6CF33215A /* VCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VCodable.swift; path = Sources/VFNetwork/HTTP/VCodable.swift; sourceTree = "<group>"; };
+		FDAE1B19597C5D8270B6B34179344172 /* JSONParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParameterEncoding.swift; path = Sources/VFNetwork/Encoding/JSONParameterEncoding.swift; sourceTree = "<group>"; };
+		FE09F439370AF945B3C4E7BF00021CC8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Sources/VFNetwork/Encoding/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FE0AE48B484E29FC3AB6DF5C49E054F5 /* VFNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VFNetwork-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E67B6E1B337BB80F039537A4DAC21EA /* Frameworks */ = {
+		236314AAD2D1F3B3E689A1FED31182E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC7B44559DC9F69B29EF48E2468DDDC /* Foundation.framework in Frameworks */,
+				34D32F3D05321DCA97A52D7CC5DAAB99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47274D04945CB313AB091348D47679BD /* Frameworks */ = {
+		37791416E50A20AF0FF8AFE965E3C5A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB96E01569599286482217BF273439BD /* Foundation.framework in Frameworks */,
+				76436A72C1E72532951B3FB0B2A974BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2A3AAF5B39B60986948FEFC256A29ED /* Frameworks */ = {
+		5EC9C7ABCC3FD8CC582980A48F355983 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12733C9A46A1B2DED3A325BE8DC0B20D /* Foundation.framework in Frameworks */,
+				22600D569E6E67CBB19663B4012CCAE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC4FF682A3B9848A18EBB97499F86572 /* Frameworks */ = {
+		77DE2D9AFB94A5C3063E89F57D675F9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A68200006C85DF071DB747A87CD8CE4F /* Foundation.framework in Frameworks */,
+				DDC7469D442EE33EC65EFF64ED6D6BE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1777C72BE390F7B7472E980ED3FB63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC7F497C213F422AEDEF3F217247F1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB93BCEE8E3DD6FC4522AB0B1BB361E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6D1EDA00B31E21ED466297163103A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3758046A5FF1DFAB9A1583F79BE45406 /* Pods-TQIBankTests */ = {
+		02A5CC06C02C37FBDCC78B5960675E56 /* TQIExtract */ = {
 			isa = PBXGroup;
 			children = (
-				E85AD395B3BDDFCB1D80D74FCC166BFA /* Pods-TQIBankTests.modulemap */,
-				64D13D1887B24D2388CA6D51A8E21651 /* Pods-TQIBankTests-acknowledgements.markdown */,
-				B6A3A33072081C4185D5C6F65BB9FA42 /* Pods-TQIBankTests-acknowledgements.plist */,
-				950CFFEF51B15C78BA4987DE869B9A67 /* Pods-TQIBankTests-dummy.m */,
-				C7EF8FC1A11862E1537EFD767F06A330 /* Pods-TQIBankTests-Info.plist */,
-				8C84CD60F38930014AD93EF31F7BB415 /* Pods-TQIBankTests-umbrella.h */,
-				EC0E4B78190689B78382B7F5DFC19DD4 /* Pods-TQIBankTests.debug.xcconfig */,
-				A13303849B6C096EA60B2418C405D5BD /* Pods-TQIBankTests.release.xcconfig */,
+				1973A36FBBF0C46B2B594D0534D04C41 /* BaseViewController.swift */,
+				12F7E4F0650EC21FECC7ADE39C5888E1 /* ExtractAPI.swift */,
+				A868F98D7668DB9B61CF4D0E47969420 /* ExtractCoordinator.swift */,
+				DF8142FB5D9D4E7818A6848882FD69B7 /* ExtractListSwiftUIView.swift */,
+				4B11284CA23429C628C4FED477908B5B /* ExtractListSwiftUIViewModel.swift */,
+				070766FDCFC1955B0BE4399B349B8D5D /* ExtractListViewController.swift */,
+				F668844C34CD1D331188877772A843F6 /* ExtractListViewModel.swift */,
+				71DCAFC2C46456548510F68371B9EB1C /* ExtractModel.swift */,
+				77AF8BDDD1A416F352FECF2F0434E32A /* ExtractService.swift */,
+				6017948341B3253E2AE35D150A2A279A /* ExtractTransactionCell.swift */,
+				68EAABE11D5C55397A24C37EF5A95BED /* ExtractTransactionSwiftUICell.swift */,
+				2B7B9B94AFEC4D10FC998AE14E0CE33F /* LoadingViewSwiftUI.swift */,
+				07E102066058B553D303F62B711790D3 /* UITableView+Extension.swift */,
+				0BD1D24CCA54D1B36CB3DC8730ADC482 /* UIView+Extension.swift */,
+				7A082A210F2F8A9F54499661A9B38F88 /* Resources */,
+				B37565EFA84DB4238E0AF6F9716F7254 /* Support Files */,
 			);
-			name = "Pods-TQIBankTests";
-			path = "Target Support Files/Pods-TQIBankTests";
+			name = TQIExtract;
+			path = TQIExtract;
 			sourceTree = "<group>";
 		};
-		54138FFC0342F7CE32DCF1F2094A829A /* Products */ = {
+		0FE907F388102546B922E6B3F4106DB8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A7FB8915CF283EEE10C6A5721244E38 /* Pods_TQIBank.framework */,
-				DDE3A79CB0D06D6C0E17AD2C2DFE58E2 /* Pods_TQIBank_TQIBankUITests.framework */,
-				A03A5B2A2F7B8F59E471C001C6A9C35C /* Pods_TQIBankTests.framework */,
-				4969654BDDEBB72225FDFCD7C815CBEA /* VFNetwork.framework */,
+				BA6DF02ED3C9A3ED1B8CD98E9141A651 /* VFNetwork.modulemap */,
+				B6EF8A6F85B07DD6D2C3E9D75E5C81F2 /* VFNetwork-dummy.m */,
+				FA92028EC0A2E61F22E2A21D2241B2A2 /* VFNetwork-Info.plist */,
+				FE0AE48B484E29FC3AB6DF5C49E054F5 /* VFNetwork-prefix.pch */,
+				9546C6476D3E9D894ACD176CB6C9B065 /* VFNetwork-umbrella.h */,
+				DC27EC1A088A0E7E6A846DC27089B8E6 /* VFNetwork.debug.xcconfig */,
+				F9120D27048FDF8B21E24B3F6D626E57 /* VFNetwork.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/VFNetwork";
+			sourceTree = "<group>";
+		};
+		13EB0E71101DC999F9729D8E58DE1A8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				593535077DABBC03A6B4149DF4D4B02B /* TQICoordinator.modulemap */,
+				D446CE0778E16406F457F4BECBF2E296 /* TQICoordinator-dummy.m */,
+				A7740087C393312C3B11002B92E9B784 /* TQICoordinator-Info.plist */,
+				6D976D4851441E33F8FBDCA74EA062E0 /* TQICoordinator-prefix.pch */,
+				A7D5045E23CA26042DB4B0D325186681 /* TQICoordinator-umbrella.h */,
+				EEC14AB1616A9247523955B3C4FB93F9 /* TQICoordinator.debug.xcconfig */,
+				94FC9E828220D52A6F86247CC0D15897 /* TQICoordinator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TQICoordinator";
+			sourceTree = "<group>";
+		};
+		2F3CD970A681799DDD768CED71751BC8 /* TQICoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC31A793928E5EC8BC630E93CFED05 /* Coordinator.swift */,
+				66D609336DD6E1A0FF88B4E27E525260 /* CoordinatorPresenter.swift */,
+				03FACF2AC30EC9500E27CE4F977E22CF /* Errors.swift */,
+				B0BDC9AB8AF29D43ABFA6243562EFA73 /* RouterLocation.swift */,
+				3E35E60B0E4FAC22441253841973CF42 /* TQIRouter.swift */,
+				13EB0E71101DC999F9729D8E58DE1A8C /* Support Files */,
+			);
+			name = TQICoordinator;
+			path = TQICoordinator;
+			sourceTree = "<group>";
+		};
+		4BE74CA7993541BB0C008AF090CE696E /* Pods-TQIBank */ = {
+			isa = PBXGroup;
+			children = (
+				D1638F9C008D980923733131EDA78C0A /* Pods-TQIBank.modulemap */,
+				6045D90DF78CE038BBABB08E097DE461 /* Pods-TQIBank-acknowledgements.markdown */,
+				13C52922576ABC4667F0AD273F794F95 /* Pods-TQIBank-acknowledgements.plist */,
+				F02BCF9123DAE62D5D6C96AD275D95DD /* Pods-TQIBank-dummy.m */,
+				1ED502E0A0BF8DD0F3C4AC6389CED512 /* Pods-TQIBank-frameworks.sh */,
+				F025A886235CE47E5A6F8489C42B90D8 /* Pods-TQIBank-Info.plist */,
+				7A2B964DE0D360D3AA9B48A6E2D2527C /* Pods-TQIBank-resources.sh */,
+				8B7F1E247425E821A6AD36523ECD7377 /* Pods-TQIBank-umbrella.h */,
+				5000718681CBA575CD47D65DA77136EB /* Pods-TQIBank.debug.xcconfig */,
+				76F9DBF1B872A7A96E0FA23FF0ED2B3D /* Pods-TQIBank.release.xcconfig */,
+			);
+			name = "Pods-TQIBank";
+			path = "Target Support Files/Pods-TQIBank";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -208,29 +392,130 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5A789FB9F74382B25C19E77AEFD7AEC3 /* Targets Support Files */ = {
+		7A082A210F2F8A9F54499661A9B38F88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF6BE6066CBA50A54BE83AE8DD5DDDFB /* Pods-TQIBank */,
-				E005B9D35545651DDADAFE806EAFB411 /* Pods-TQIBank-TQIBankUITests */,
-				3758046A5FF1DFAB9A1583F79BE45406 /* Pods-TQIBankTests */,
+				B2CA0F97BDB9C316BCD0006F318F1358 /* ExtractListViewController.xib */,
+				81FFCC52D2E7C746846B17DB8B7C0819 /* ExtractTransactionCell.xib */,
+				D951B851F48A37169C72726E1FA75A90 /* TQIExtractAssets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B236A96D7BAD49BC2348AB70970280E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BE74CA7993541BB0C008AF090CE696E /* Pods-TQIBank */,
+				9948E4E5E2B13F482B09ECC8AEA491E6 /* Pods-TQIBank-TQIBankUITests */,
+				A35E0C44C04ADF78A496BBDA975C22A2 /* Pods-TQIBankTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		786C37FBFC3472C8E7C5DB6EDA2355A2 /* Support Files */ = {
+		9240F2E7BA3B2D404540D81793CE0960 /* VFNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				AEB04D014BB423F48A8206755464A60E /* VFNetwork.modulemap */,
-				4D33F1F27F55FB5ED7DEFC9E9D1A1A47 /* VFNetwork-dummy.m */,
-				42201DF7EA787A1DAA7B9DBF84474CE0 /* VFNetwork-Info.plist */,
-				E5558B419050EF1E1EF0D16FF4166B89 /* VFNetwork-prefix.pch */,
-				5AB7FEFF39D8964A9397ECE618EC6CC2 /* VFNetwork-umbrella.h */,
-				819EF57E065C81713557EBE968E02D8A /* VFNetwork.debug.xcconfig */,
-				04E0F89F9D72A4056C5E59FB59BEB129 /* VFNetwork.release.xcconfig */,
+				7271D103B876C711076C5F7C495C8A6E /* APIBuilder.swift */,
+				885B08CB2ED45944B7822203A156543F /* APIBuilder+BaseURL.swift */,
+				E13A36831A07EF6D651F325FE4ADEAD8 /* APIError.swift */,
+				E0FB06693312E8E699FE8424FC78576B /* Cache.swift */,
+				A485377BB15E23BE7C8CB1BB0AEA94AE /* Cacheable.swift */,
+				6950FFBBA87222FF772C091B937264BE /* CacheKey.swift */,
+				B68A6D13692DDAD548AE30126490C14A /* Disk.swift */,
+				EF413D9DF007FE2B223F5F03A08BA97E /* Environment.swift */,
+				33ADAA7406B35842403A5987677E62CA /* HTTPMethod.swift */,
+				F36DA3429D019ECB519B5020BF909DC2 /* HTTPTask.swift */,
+				9494CB19375E7F56B69CE9E13D1229D0 /* JSONMockContentFile.swift */,
+				D7FF736999F9366392A81CFB797E2139 /* JSONMockOrchestrator.swift */,
+				FDAE1B19597C5D8270B6B34179344172 /* JSONParameterEncoding.swift */,
+				FE09F439370AF945B3C4E7BF00021CC8 /* ParameterEncoding.swift */,
+				F5DD407283102587061A0ED29C8A2CA3 /* RequestBuilderProtocol.swift */,
+				2DCDE7320BBBA282E65C61481ABD8A20 /* RequestExecutor.swift */,
+				3138FB91AB25807841C95BF18F933ED4 /* RequestHeader.swift */,
+				A004266E99F76779C5AC31E29EB0F76A /* RequestLogger.swift */,
+				6E49E116E4E9E55EDBD72852F0806549 /* RequestOrchestrator.swift */,
+				0E0B6980B2412514FBC7FC49CB5F994A /* RequestOrchestratorProtocol.swift */,
+				1BE3D7B174147E81A317F09BE4148BD1 /* RequestProvider.swift */,
+				D62A27C3DC624CCE709A27C0D332A152 /* RequestService.swift */,
+				49C12F851F9F7457210647E3184B96E5 /* URLParameterEncoding.swift */,
+				25F207BB7697CC395A4EA4487B30598B /* URLPath.swift */,
+				FD8DC76D1ECF06F50AE9C3D6CF33215A /* VCodable.swift */,
+				0FE907F388102546B922E6B3F4106DB8 /* Support Files */,
+			);
+			name = VFNetwork;
+			path = VFNetwork;
+			sourceTree = "<group>";
+		};
+		95C01C2036C3674B69E620FCAD0124CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7FB8915CF283EEE10C6A5721244E38 /* Pods-TQIBank */,
+				DDE3A79CB0D06D6C0E17AD2C2DFE58E2 /* Pods-TQIBank-TQIBankUITests */,
+				A03A5B2A2F7B8F59E471C001C6A9C35C /* Pods-TQIBankTests */,
+				98411A547555A65EF55A35A8F038A219 /* TQICoordinator */,
+				E5D2BB361C7F7A092CE79CA01D0F97EE /* TQIExtract */,
+				4969654BDDEBB72225FDFCD7C815CBEA /* VFNetwork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9948E4E5E2B13F482B09ECC8AEA491E6 /* Pods-TQIBank-TQIBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9D349453A72CE11583C66E5A33C52 /* Pods-TQIBank-TQIBankUITests.modulemap */,
+				A73407D34F1F4B8F574B413E7AB63C84 /* Pods-TQIBank-TQIBankUITests-acknowledgements.markdown */,
+				392E21B6E245367AB7863823AF9841CD /* Pods-TQIBank-TQIBankUITests-acknowledgements.plist */,
+				97C21A601E5724DD10B973F8B4175B33 /* Pods-TQIBank-TQIBankUITests-dummy.m */,
+				7F30A0841CCDEB374406C5A00BAEC5BC /* Pods-TQIBank-TQIBankUITests-frameworks.sh */,
+				D776A09999E6B43861442FB34DD43548 /* Pods-TQIBank-TQIBankUITests-Info.plist */,
+				A5B948753356D38F7ADC1F6127339B2E /* Pods-TQIBank-TQIBankUITests-resources.sh */,
+				357A1F43049C5D02066688A41F8C44F5 /* Pods-TQIBank-TQIBankUITests-umbrella.h */,
+				28E2A414395F357D4CFE9D4BFD9F0FCC /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */,
+				5DE415F809DE2B6B5F06D24B46CD7635 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */,
+			);
+			name = "Pods-TQIBank-TQIBankUITests";
+			path = "Target Support Files/Pods-TQIBank-TQIBankUITests";
+			sourceTree = "<group>";
+		};
+		A35E0C44C04ADF78A496BBDA975C22A2 /* Pods-TQIBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				19A2DF7AE3CD6D0C91641F30A48E560E /* Pods-TQIBankTests.modulemap */,
+				5E90DF11410ED81A14B293F989A8A76D /* Pods-TQIBankTests-acknowledgements.markdown */,
+				8E16297C846498F13F1FB68A34D2A3E9 /* Pods-TQIBankTests-acknowledgements.plist */,
+				E6276A58484762E9C8F7C19CC6B9F084 /* Pods-TQIBankTests-dummy.m */,
+				EC4643449FFF98ADE031F5DADFAC1613 /* Pods-TQIBankTests-Info.plist */,
+				9400D8E77E467E724D809E831A455854 /* Pods-TQIBankTests-umbrella.h */,
+				400059D51B681453761072FF84984AE8 /* Pods-TQIBankTests.debug.xcconfig */,
+				F2F11B247CADC9F0F1C608467217E01A /* Pods-TQIBankTests.release.xcconfig */,
+			);
+			name = "Pods-TQIBankTests";
+			path = "Target Support Files/Pods-TQIBankTests";
+			sourceTree = "<group>";
+		};
+		AA403C9B0BED4A42F2D9517C7785CF02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F3CD970A681799DDD768CED71751BC8 /* TQICoordinator */,
+				02A5CC06C02C37FBDCC78B5960675E56 /* TQIExtract */,
+				9240F2E7BA3B2D404540D81793CE0960 /* VFNetwork */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B37565EFA84DB4238E0AF6F9716F7254 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B277A6F6B77596E65E99D599BCB7AC9A /* TQIExtract.modulemap */,
+				E75C55A696F10E86A51A57F3F85452D6 /* TQIExtract-dummy.m */,
+				316981B12263E196D29AAA348660C88E /* TQIExtract-Info.plist */,
+				67EEDEA65A74B05BB1D94780542DB64D /* TQIExtract-prefix.pch */,
+				7797075DB7A5C299638FE1636B899444 /* TQIExtract-umbrella.h */,
+				E3BAA584431253504098473525DDBCA8 /* TQIExtract.debug.xcconfig */,
+				B520975427243BB7E97A8B1AFFFA8FD8 /* TQIExtract.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/VFNetwork";
+			path = "../Target Support Files/TQIExtract";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -238,27 +523,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E631523B9DF6B0B3974338C63E25DB9B /* Pods */,
-				54138FFC0342F7CE32DCF1F2094A829A /* Products */,
-				5A789FB9F74382B25C19E77AEFD7AEC3 /* Targets Support Files */,
+				AA403C9B0BED4A42F2D9517C7785CF02 /* Pods */,
+				95C01C2036C3674B69E620FCAD0124CD /* Products */,
+				7B236A96D7BAD49BC2348AB70970280E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF6BE6066CBA50A54BE83AE8DD5DDDFB /* Pods-TQIBank */ = {
-			isa = PBXGroup;
-			children = (
-				174D0A58D21B2D0636A02EAAD16E20B9 /* Pods-TQIBank.modulemap */,
-				14FFDBE83493A3EBDFD241096F08FDDA /* Pods-TQIBank-acknowledgements.markdown */,
-				A9B048E41D4456193452B29FE92FF659 /* Pods-TQIBank-acknowledgements.plist */,
-				0F4A2162A8145A4D47EE8994D8773FC4 /* Pods-TQIBank-dummy.m */,
-				AD847C687601A7AE547FB894C5A58A2C /* Pods-TQIBank-frameworks.sh */,
-				F7E681DF5E28908A6EFECA01E332B76F /* Pods-TQIBank-Info.plist */,
-				FCF2A51A28DAC138148747D6206FC915 /* Pods-TQIBank-umbrella.h */,
-				C3BB09B9A6CEA55D37F451985B874909 /* Pods-TQIBank.debug.xcconfig */,
-				33DCEBABAE772C157397DCFA1EB6795A /* Pods-TQIBank.release.xcconfig */,
-			);
-			name = "Pods-TQIBank";
-			path = "Target Support Files/Pods-TQIBank";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -269,149 +537,128 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E005B9D35545651DDADAFE806EAFB411 /* Pods-TQIBank-TQIBankUITests */ = {
-			isa = PBXGroup;
-			children = (
-				40AF5E4303E6CC09760D9561E6A88985 /* Pods-TQIBank-TQIBankUITests.modulemap */,
-				CE1133ED91C51E5F104396B3F337A476 /* Pods-TQIBank-TQIBankUITests-acknowledgements.markdown */,
-				5F551BF3A49D0BDF34C970468B25E996 /* Pods-TQIBank-TQIBankUITests-acknowledgements.plist */,
-				94F0C56B4CEA9C0529CEF3D3CC128606 /* Pods-TQIBank-TQIBankUITests-dummy.m */,
-				CF4321C88C4E51F92F4FFA3B68CE2AEC /* Pods-TQIBank-TQIBankUITests-frameworks.sh */,
-				6AB0949F020B415C858763E6544E7C91 /* Pods-TQIBank-TQIBankUITests-Info.plist */,
-				2EE24D5127361D266FBE6A530331DF0B /* Pods-TQIBank-TQIBankUITests-umbrella.h */,
-				22A686ABB1E85C16F5AA6EA123EEB19E /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */,
-				DF2BD6EA81106F09BEFDBF5F92CA5581 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */,
-			);
-			name = "Pods-TQIBank-TQIBankUITests";
-			path = "Target Support Files/Pods-TQIBank-TQIBankUITests";
-			sourceTree = "<group>";
-		};
-		E631523B9DF6B0B3974338C63E25DB9B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FC69DAD743A015248BAF02362EBCDC3C /* VFNetwork */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FC69DAD743A015248BAF02362EBCDC3C /* VFNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				12B78A2247F5D4F16D588257534F75C3 /* APIBuilder.swift */,
-				7C4B12DC9BAA3D577010AA5A81222B3A /* APIBuilder+BaseURL.swift */,
-				0D7C2C1FB74B74EEC20409BAB005D318 /* APIError.swift */,
-				E890DD2DB731A24656AE6CBE9E10274E /* Cache.swift */,
-				CA902364BE194B741AA9BB1E0C19F1C2 /* Cacheable.swift */,
-				CBC161B063AB11CFB366735DEDB5D2FC /* CacheKey.swift */,
-				AB4BF55E195A6AAF65DA81C30584121E /* Disk.swift */,
-				20BEBAB0A24E4C00EEBFF34E9B1D74C2 /* Environment.swift */,
-				3F3A06B22BBA5AED33D54EE4CE705549 /* HTTPMethod.swift */,
-				0DA9D961AB28212AD16A5F67AA7442D9 /* HTTPTask.swift */,
-				625A426B96131BBB9A55A2510411C1DF /* JSONMockContentFile.swift */,
-				C2F46E49AC62D58EEF775A2DD08F4795 /* JSONMockOrchestrator.swift */,
-				F0163FDB6FFB36B8395EB53D12FB7F9D /* JSONParameterEncoding.swift */,
-				0BE5DD1669925395D1E6BCF1D68F772C /* ParameterEncoding.swift */,
-				F13DA40962013041B4FCE36E81A389F7 /* RequestBuilderProtocol.swift */,
-				8BD633E89F4D84E4AD41CAB9FF75186C /* RequestExecutor.swift */,
-				47BAB4DFBA1FAA63EEDDD10144145020 /* RequestHeader.swift */,
-				F787411FCDDE6D8BE8C6117946DCA77D /* RequestLogger.swift */,
-				D1193DC8405F3331789AB280FADB7987 /* RequestOrchestrator.swift */,
-				DC158625568F5C9FEAD7A244374ABC2D /* RequestOrchestratorProtocol.swift */,
-				69623D151A3DD8405A66D6B4A656DC43 /* RequestProvider.swift */,
-				8A460AF498AAC4AE191646E76DCE4DB1 /* RequestService.swift */,
-				ED7C5FE2AF49985A7D4ED8BC0CEEA4A3 /* URLParameterEncoding.swift */,
-				9D96DC1CAB8416859FCE495459FD2819 /* URLPath.swift */,
-				E5925D5D8747F3011BBB669A69552F7D /* VCodable.swift */,
-				786C37FBFC3472C8E7C5DB6EDA2355A2 /* Support Files */,
-			);
-			name = VFNetwork;
-			path = VFNetwork;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5CDF6715F3F1A690FAD6CFA0309197B7 /* Headers */ = {
+		6F62422A235456C1A66EBF55E586C8F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29B8C4BFA73A24F18416B00F58AEC1F /* Pods-TQIBank-TQIBankUITests-umbrella.h in Headers */,
+				7F9AC40016822EA2ED5C5B3FAACDBAD3 /* TQIExtract-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		635525F8801E689DBA7C98BF4680BE74 /* Headers */ = {
+		7552EF92F224823269924294C47D9F6E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040C861EBBED789E69DAA0827743CFE0 /* VFNetwork-umbrella.h in Headers */,
+				6BCD6DAB3A13961AE991B4BB308D3804 /* Pods-TQIBankTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		738A849508E284B77F4EF9960FC9FFF6 /* Headers */ = {
+		98C4605BB05F2DC5E2E55180DCC1489C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				710AF144CC52B98020F3508F2617EDAE /* Pods-TQIBankTests-umbrella.h in Headers */,
+				D1FEC3E686E99D809F6CCC6056BFAE3D /* Pods-TQIBank-TQIBankUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB80730BA333A4BB6BC05EFBDE56A8E6 /* Headers */ = {
+		B154EEA9ACF741311EE5B0EA1EFA5DA3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C08583975D9BE4B24B8FE5B4E587B41 /* Pods-TQIBank-umbrella.h in Headers */,
+				79D29217EB8D260DBB11D62629A4E821 /* Pods-TQIBank-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF31AA2CD46E394EFB90D02A734DFCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBFED6374C2FCDED147DE5FCD9147C5 /* VFNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE4CB3113FCCD7FDE96CEB6DB517816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEDD6175F41F0DBBD62B15DFE86CD82 /* TQICoordinator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4A4475F3E5A33104083FE194F9C5A7BE /* Pods-TQIBank-TQIBankUITests */ = {
+		09D25C0B720B0CD3DC3AC1893086AEF6 /* TQICoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A2C47D7BEA8D7EEE5270C6D85067C94 /* Build configuration list for PBXNativeTarget "Pods-TQIBank-TQIBankUITests" */;
+			buildConfigurationList = 3CA70381FE375CE328613EBEAEEC398F /* Build configuration list for PBXNativeTarget "TQICoordinator" */;
 			buildPhases = (
-				5CDF6715F3F1A690FAD6CFA0309197B7 /* Headers */,
-				5430514CB73475C0897B32F3001079A2 /* Sources */,
-				3E67B6E1B337BB80F039537A4DAC21EA /* Frameworks */,
-				8CBEC6D1C9E5F5664692AF3DBBF703DA /* Resources */,
+				FBE4CB3113FCCD7FDE96CEB6DB517816 /* Headers */,
+				3C356B39386B9B2018A50BD62BCAC700 /* Sources */,
+				5EC9C7ABCC3FD8CC582980A48F355983 /* Frameworks */,
+				A44567C794632AA7821DD853284EEE78 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				429A02D9966B1C7904E85478B2F9028C /* PBXTargetDependency */,
+			);
+			name = TQICoordinator;
+			productName = TQICoordinator;
+			productReference = 98411A547555A65EF55A35A8F038A219 /* TQICoordinator */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A4475F3E5A33104083FE194F9C5A7BE /* Pods-TQIBank-TQIBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE88714268545AA2C6C9D943833CE6D /* Build configuration list for PBXNativeTarget "Pods-TQIBank-TQIBankUITests" */;
+			buildPhases = (
+				98C4605BB05F2DC5E2E55180DCC1489C /* Headers */,
+				CE7BACE2C868EE54560C117350EB787F /* Sources */,
+				77DE2D9AFB94A5C3063E89F57D675F9A /* Frameworks */,
+				5664FB215C06F19D94119B435C9E1BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F32093C2CFD18AF637C6F9D82872544 /* PBXTargetDependency */,
+				EA8C60B5B96EEBECEE95DEB129B8EB32 /* PBXTargetDependency */,
+				6EA5431316FA3D3DF6E743A23BC8FE4B /* PBXTargetDependency */,
 			);
 			name = "Pods-TQIBank-TQIBankUITests";
-			productName = "Pods-TQIBank-TQIBankUITests";
-			productReference = DDE3A79CB0D06D6C0E17AD2C2DFE58E2 /* Pods_TQIBank_TQIBankUITests.framework */;
+			productName = Pods_TQIBank_TQIBankUITests;
+			productReference = DDE3A79CB0D06D6C0E17AD2C2DFE58E2 /* Pods-TQIBank-TQIBankUITests */;
 			productType = "com.apple.product-type.framework";
 		};
 		4DC67CE68D38F7F1E1B31EDAA88E5EBF /* Pods-TQIBank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1810B1815BD11A0FCE3DF9C8BD5E8BBC /* Build configuration list for PBXNativeTarget "Pods-TQIBank" */;
+			buildConfigurationList = 5AFA796105D9F05844DED343624239F2 /* Build configuration list for PBXNativeTarget "Pods-TQIBank" */;
 			buildPhases = (
-				DB80730BA333A4BB6BC05EFBDE56A8E6 /* Headers */,
-				AEE724043944DF20AE00181D7ACCCBDE /* Sources */,
-				C2A3AAF5B39B60986948FEFC256A29ED /* Frameworks */,
-				22F1D025B3B8C8C02EB449316A86F09F /* Resources */,
+				B154EEA9ACF741311EE5B0EA1EFA5DA3 /* Headers */,
+				9493F8DAC9502C7C18FEB54BCC877428 /* Sources */,
+				D1777C72BE390F7B7472E980ED3FB63E /* Frameworks */,
+				30FBC81E9A3DC318139FFE4D0B1AE1ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71C26C2F8233172D90B12782DCB1AEF7 /* PBXTargetDependency */,
+				33D6B4C3C881E69807544505C5CD817B /* PBXTargetDependency */,
+				8841335F89C194857CE9B321F06D73AC /* PBXTargetDependency */,
+				F8DDAB1A923683208D298EC475504183 /* PBXTargetDependency */,
 			);
 			name = "Pods-TQIBank";
-			productName = "Pods-TQIBank";
-			productReference = 0A7FB8915CF283EEE10C6A5721244E38 /* Pods_TQIBank.framework */;
+			productName = Pods_TQIBank;
+			productReference = 0A7FB8915CF283EEE10C6A5721244E38 /* Pods-TQIBank */;
 			productType = "com.apple.product-type.framework";
 		};
 		827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95B13F2AC7B04272889D274A9D00838A /* Build configuration list for PBXNativeTarget "VFNetwork" */;
+			buildConfigurationList = 1372CAA8FB2052F86841F95A51C42486 /* Build configuration list for PBXNativeTarget "VFNetwork" */;
 			buildPhases = (
-				635525F8801E689DBA7C98BF4680BE74 /* Headers */,
-				62C21253FB762BF8210E222E305727C3 /* Sources */,
-				FC4FF682A3B9848A18EBB97499F86572 /* Frameworks */,
-				EBB5CCBF0FA189885B92E8E6F746A57E /* Resources */,
+				DEF31AA2CD46E394EFB90D02A734DFCD /* Headers */,
+				9F7CF20CC950E6F7F49CC4C007A39EA5 /* Sources */,
+				236314AAD2D1F3B3E689A1FED31182E5 /* Frameworks */,
+				8B44FE0F6163EA3B897A6B03D65DDEE2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -419,26 +666,46 @@
 			);
 			name = VFNetwork;
 			productName = VFNetwork;
-			productReference = 4969654BDDEBB72225FDFCD7C815CBEA /* VFNetwork.framework */;
+			productReference = 4969654BDDEBB72225FDFCD7C815CBEA /* VFNetwork */;
 			productType = "com.apple.product-type.framework";
 		};
-		A03FF17A67C38A1EC6A6FADF528E82FF /* Pods-TQIBankTests */ = {
+		96CFB85F8D4CB5A6459EFEAA9D4822D8 /* TQIExtract */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FE0428BC892A36F68957D6C8777B264 /* Build configuration list for PBXNativeTarget "Pods-TQIBankTests" */;
+			buildConfigurationList = 8D79B14A34D03612B63FFEBF14FBC2B8 /* Build configuration list for PBXNativeTarget "TQIExtract" */;
 			buildPhases = (
-				738A849508E284B77F4EF9960FC9FFF6 /* Headers */,
-				E0EBCEDDF236A2AB7D95EBC43E1D735B /* Sources */,
-				47274D04945CB313AB091348D47679BD /* Frameworks */,
-				55C02D05C7A7C4CD3EF3593E4FB7CB92 /* Resources */,
+				6F62422A235456C1A66EBF55E586C8F1 /* Headers */,
+				FA48A3B0E5A760703D946F190CFDF708 /* Sources */,
+				37791416E50A20AF0FF8AFE965E3C5A4 /* Frameworks */,
+				6B53FC999F444DB961246B00629B1C4E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3E867545DF8E74935942100900E97D3 /* PBXTargetDependency */,
+				EE969A642FF920C9E0DB8C2E6647311A /* PBXTargetDependency */,
+				900BAC8A9DF741D66F3A4BC85AA35C35 /* PBXTargetDependency */,
+			);
+			name = TQIExtract;
+			productName = TQIExtract;
+			productReference = E5D2BB361C7F7A092CE79CA01D0F97EE /* TQIExtract */;
+			productType = "com.apple.product-type.framework";
+		};
+		A03FF17A67C38A1EC6A6FADF528E82FF /* Pods-TQIBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDF4336C5561582C289297A55EBDE19 /* Build configuration list for PBXNativeTarget "Pods-TQIBankTests" */;
+			buildPhases = (
+				7552EF92F224823269924294C47D9F6E /* Headers */,
+				91FC7719F2E8EBCB712891756061A17D /* Sources */,
+				EB93BCEE8E3DD6FC4522AB0B1BB361E4 /* Frameworks */,
+				C2489D6B5047562F286A434CE4F2E827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49907CDBA18223528661D898723FC7BE /* PBXTargetDependency */,
 			);
 			name = "Pods-TQIBankTests";
-			productName = "Pods-TQIBankTests";
-			productReference = A03A5B2A2F7B8F59E471C001C6A9C35C /* Pods_TQIBankTests.framework */;
+			productName = Pods_TQIBankTests;
+			productReference = A03A5B2A2F7B8F59E471C001C6A9C35C /* Pods-TQIBankTests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -447,53 +714,71 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 54138FFC0342F7CE32DCF1F2094A829A /* Products */;
+			productRefGroup = 95C01C2036C3674B69E620FCAD0124CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4DC67CE68D38F7F1E1B31EDAA88E5EBF /* Pods-TQIBank */,
 				4A4475F3E5A33104083FE194F9C5A7BE /* Pods-TQIBank-TQIBankUITests */,
 				A03FF17A67C38A1EC6A6FADF528E82FF /* Pods-TQIBankTests */,
+				09D25C0B720B0CD3DC3AC1893086AEF6 /* TQICoordinator */,
+				96CFB85F8D4CB5A6459EFEAA9D4822D8 /* TQIExtract */,
 				827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22F1D025B3B8C8C02EB449316A86F09F /* Resources */ = {
+		30FBC81E9A3DC318139FFE4D0B1AE1ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55C02D05C7A7C4CD3EF3593E4FB7CB92 /* Resources */ = {
+		5664FB215C06F19D94119B435C9E1BD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CBEC6D1C9E5F5664692AF3DBBF703DA /* Resources */ = {
+		6B53FC999F444DB961246B00629B1C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BB4D7F3A1D7F2C2404E310CEA55BA0 /* ExtractListViewController.xib in Resources */,
+				6DED04680CAB5656D8B243C6606B9669 /* ExtractTransactionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B44FE0F6163EA3B897A6B03D65DDEE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB5CCBF0FA189885B92E8E6F746A57E /* Resources */ = {
+		A44567C794632AA7821DD853284EEE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2489D6B5047562F286A434CE4F2E827 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -503,127 +788,161 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5430514CB73475C0897B32F3001079A2 /* Sources */ = {
+		3C356B39386B9B2018A50BD62BCAC700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C269CCD58F182519AED0F64F9E903E /* Pods-TQIBank-TQIBankUITests-dummy.m in Sources */,
+				FDC733324AA47F1053A549C8806FC30D /* Coordinator.swift in Sources */,
+				54C1FFC30DE2F5AF2A517BA01C78A854 /* CoordinatorPresenter.swift in Sources */,
+				970B36A638D2020DDE0B4598918FBB67 /* Errors.swift in Sources */,
+				39B5D563B3DD65CC5C32DF006770DC01 /* RouterLocation.swift in Sources */,
+				11ED01EBFA26AA30EBC1D6D5FB8EC150 /* TQICoordinator-dummy.m in Sources */,
+				DD33F833F5E49348033D090BE64B9CF5 /* TQIRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C21253FB762BF8210E222E305727C3 /* Sources */ = {
+		91FC7719F2E8EBCB712891756061A17D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226B63DDB840ED3FF6678B4FF922CA91 /* APIBuilder+BaseURL.swift in Sources */,
-				5F12447E087C5C9B524F8A827DC564E9 /* APIBuilder.swift in Sources */,
-				9A07E3B425D216E3569515FE136E60FD /* APIError.swift in Sources */,
-				5A33249C5453B918E30226078E0825C1 /* Cache.swift in Sources */,
-				80235A96B7307434CF5F53CF52B41AC9 /* Cacheable.swift in Sources */,
-				A4D62D7426311B82FD2ED62CCDF4CA54 /* CacheKey.swift in Sources */,
-				8265E9E85071FC297F1605C0BFB7DD88 /* Disk.swift in Sources */,
-				14003CD5B28F403082A755E6326359FF /* Environment.swift in Sources */,
-				7DDAE5D938F070C6B84FD905DD9E71AF /* HTTPMethod.swift in Sources */,
-				5A4ED8E6FCF02AE288E65EB7CBF66D84 /* HTTPTask.swift in Sources */,
-				55A64837E693D9FD81803556EEC092C7 /* JSONMockContentFile.swift in Sources */,
-				613C77FCCF3C86728C668ABBE173E420 /* JSONMockOrchestrator.swift in Sources */,
-				61813AFA6ECAB9E1E837EDC1AB64F8BD /* JSONParameterEncoding.swift in Sources */,
-				256640846E94ADD9D286219ACC58AF3B /* ParameterEncoding.swift in Sources */,
-				0ABBBC97720E9167622CFA4004FB7004 /* RequestBuilderProtocol.swift in Sources */,
-				395B49B6B104B637A1B1BECDEBCA5DCB /* RequestExecutor.swift in Sources */,
-				FDEB031112598C1F9CF7C51DDFA53CE5 /* RequestHeader.swift in Sources */,
-				FA3F79D4130295D720BC65D6B651EAD6 /* RequestLogger.swift in Sources */,
-				B67A52C033D8A71FFBF9B24F7951C7E0 /* RequestOrchestrator.swift in Sources */,
-				ABF0B1F5A25F27D7D70D5E4F47B23EB5 /* RequestOrchestratorProtocol.swift in Sources */,
-				75B9B43BFDCDF5128042060DE17F7023 /* RequestProvider.swift in Sources */,
-				6EF21A04C3512674089156AF8A401AB4 /* RequestService.swift in Sources */,
-				5DF05027B0980AB04ADED2FDE8E0E0DC /* URLParameterEncoding.swift in Sources */,
-				0D3CE727B14BC391D13606C3484A96D9 /* URLPath.swift in Sources */,
-				568B29E827F350D885BC74897798D332 /* VCodable.swift in Sources */,
-				4855528ED4B9D4165C30F47687CC6582 /* VFNetwork-dummy.m in Sources */,
+				AADFA192216A17C181DB4413948B14EE /* Pods-TQIBankTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEE724043944DF20AE00181D7ACCCBDE /* Sources */ = {
+		9493F8DAC9502C7C18FEB54BCC877428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACE44402107CBC479BD4F642D3B6D0B /* Pods-TQIBank-dummy.m in Sources */,
+				B86C0FBD67AA5FA80216F0C45CE77339 /* Pods-TQIBank-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0EBCEDDF236A2AB7D95EBC43E1D735B /* Sources */ = {
+		9F7CF20CC950E6F7F49CC4C007A39EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBF9B77FB9FAE428405E9FD72A2105E /* Pods-TQIBankTests-dummy.m in Sources */,
+				F1666448458EB0C9A1CC57FF392E6407 /* APIBuilder.swift in Sources */,
+				7162E4B25105252C1A7B93DF8003A5AE /* APIBuilder+BaseURL.swift in Sources */,
+				60AD3E3713E06DC00CB62700BA3880AD /* APIError.swift in Sources */,
+				B91417A1BFF5AF0013C36095136FA849 /* Cache.swift in Sources */,
+				EF2CF2E4AE00AE48BD0E5C6FAB2F3963 /* Cacheable.swift in Sources */,
+				0E30EAC269D19D7D8A1439989E8C4C92 /* CacheKey.swift in Sources */,
+				14B5E3365787A6344F2118471B6FBDE7 /* Disk.swift in Sources */,
+				ADA8D3BE62F97C9A04D22C5C0CA6BBA9 /* Environment.swift in Sources */,
+				5D1D6BB93CAA221076A77A27E8A7ABF0 /* HTTPMethod.swift in Sources */,
+				8EA2B1DCD4CB4BB023A27DD420CA98C9 /* HTTPTask.swift in Sources */,
+				72B6D830E1512ECC52A6F8899031C968 /* JSONMockContentFile.swift in Sources */,
+				347BEF1B1AE1378A7FBF05768E4F1FBE /* JSONMockOrchestrator.swift in Sources */,
+				3C5DEDCBE3E13988D7D8DA52E30E4D2D /* JSONParameterEncoding.swift in Sources */,
+				457C2290F73BB07A4A355986356B7FB8 /* ParameterEncoding.swift in Sources */,
+				D0191E0378D763D997DC0C6ADA195146 /* RequestBuilderProtocol.swift in Sources */,
+				24ECD384AB3087DF9897196B5F9E238C /* RequestExecutor.swift in Sources */,
+				2E85C1E83AC3E0B4A6CC8E89057FE656 /* RequestHeader.swift in Sources */,
+				E676BBFC7D9287F3CDB38C22C1A4E85F /* RequestLogger.swift in Sources */,
+				A5CAA68A6E8DF000FDE920F9EE11B8ED /* RequestOrchestrator.swift in Sources */,
+				8A88C69EBF8A06712DFC3BB717609E64 /* RequestOrchestratorProtocol.swift in Sources */,
+				CF68D561FEE0F8C86EF9F21A04BD08D7 /* RequestProvider.swift in Sources */,
+				3D1750A73939E3255C8BE14B41B184F4 /* RequestService.swift in Sources */,
+				0AF48FF07D3F6F08C874780E531C5DF4 /* URLParameterEncoding.swift in Sources */,
+				4D896652DB9D272301306B33BF5AB4CA /* URLPath.swift in Sources */,
+				42EACF188CF0A839C6786C69DAC364F9 /* VCodable.swift in Sources */,
+				581990323C6AC17FB91F5767E38F5F87 /* VFNetwork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7BACE2C868EE54560C117350EB787F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C6DD13501A3FDDBB848A2D9B6F68CC /* Pods-TQIBank-TQIBankUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA48A3B0E5A760703D946F190CFDF708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EF21B267728799FD7B0140F38AAE9D /* BaseViewController.swift in Sources */,
+				875473C66B7FE252823A26EDC9608ACF /* ExtractAPI.swift in Sources */,
+				2E4636E1B3DAF28667932E69748783B8 /* ExtractCoordinator.swift in Sources */,
+				594C09EE71FCD174E4A69DACB2FDA172 /* ExtractListSwiftUIView.swift in Sources */,
+				9204F9BB58A6851FC9EE9A7B56770871 /* ExtractListSwiftUIViewModel.swift in Sources */,
+				32A54AED8BFF4C35DCDEB1BBDF40DBB8 /* ExtractListViewController.swift in Sources */,
+				BBF6B86555CE9987C3C98E904FF83FEF /* ExtractListViewModel.swift in Sources */,
+				E40C9DDC4428EE56A016D81ADF4DD453 /* ExtractModel.swift in Sources */,
+				2396C1644D04E7A5AC5EE7CB562BE1BE /* ExtractService.swift in Sources */,
+				E61A9F94F2ECE71F6C54327EB6654D77 /* ExtractTransactionCell.swift in Sources */,
+				006FB3ECF3EE7DA8565F549F272E8196 /* ExtractTransactionSwiftUICell.swift in Sources */,
+				471DB5DCC7A72D307012D7F9174BDCAD /* LoadingViewSwiftUI.swift in Sources */,
+				21D26DF0609C344EB5AC9779DF141C25 /* TQIExtract-dummy.m in Sources */,
+				F452C4AC3026A6429A0CA7EBBCBEB8A4 /* UITableView+Extension.swift in Sources */,
+				7F7110035C607565DB9E5C966F354AD2 /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		429A02D9966B1C7904E85478B2F9028C /* PBXTargetDependency */ = {
+		33D6B4C3C881E69807544505C5CD817B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = VFNetwork;
-			target = 827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */;
-			targetProxy = E17C999213018E1BED1FCED0999F33E8 /* PBXContainerItemProxy */;
+			name = TQICoordinator;
+			target = 09D25C0B720B0CD3DC3AC1893086AEF6 /* TQICoordinator */;
+			targetProxy = E1F255419970C17001D2268F080D7F9F /* PBXContainerItemProxy */;
 		};
-		71C26C2F8233172D90B12782DCB1AEF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VFNetwork;
-			target = 827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */;
-			targetProxy = 810C29DBFD41A346641C5662BE737234 /* PBXContainerItemProxy */;
-		};
-		B3E867545DF8E74935942100900E97D3 /* PBXTargetDependency */ = {
+		49907CDBA18223528661D898723FC7BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TQIBank";
 			target = 4DC67CE68D38F7F1E1B31EDAA88E5EBF /* Pods-TQIBank */;
-			targetProxy = E9287EFD823DBA7CF8774F215F8FA6C8 /* PBXContainerItemProxy */;
+			targetProxy = 93ECC67909EED8B89E68049BC0ACF156 /* PBXContainerItemProxy */;
+		};
+		6EA5431316FA3D3DF6E743A23BC8FE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VFNetwork;
+			target = 827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */;
+			targetProxy = E6B48DC9ADE4126C077C6CE2C850D1F2 /* PBXContainerItemProxy */;
+		};
+		7F32093C2CFD18AF637C6F9D82872544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TQICoordinator;
+			target = 09D25C0B720B0CD3DC3AC1893086AEF6 /* TQICoordinator */;
+			targetProxy = EDC84328E1EF18AAB5D1745218BFA442 /* PBXContainerItemProxy */;
+		};
+		8841335F89C194857CE9B321F06D73AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TQIExtract;
+			target = 96CFB85F8D4CB5A6459EFEAA9D4822D8 /* TQIExtract */;
+			targetProxy = 76E0059D5F02D442F5CBAC0A6D50A3A8 /* PBXContainerItemProxy */;
+		};
+		900BAC8A9DF741D66F3A4BC85AA35C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VFNetwork;
+			target = 827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */;
+			targetProxy = 219DC96D9CF2C8A3468A6AEDD037DB84 /* PBXContainerItemProxy */;
+		};
+		EA8C60B5B96EEBECEE95DEB129B8EB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TQIExtract;
+			target = 96CFB85F8D4CB5A6459EFEAA9D4822D8 /* TQIExtract */;
+			targetProxy = 608189423324943BC04997090E900AB2 /* PBXContainerItemProxy */;
+		};
+		EE969A642FF920C9E0DB8C2E6647311A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TQICoordinator;
+			target = 09D25C0B720B0CD3DC3AC1893086AEF6 /* TQICoordinator */;
+			targetProxy = 6ED2FA1EF4F64880306C0912F120ABEA /* PBXContainerItemProxy */;
+		};
+		F8DDAB1A923683208D298EC475504183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VFNetwork;
+			target = 827CEA5250DB46BE6C2957372FF12C0C /* VFNetwork */;
+			targetProxy = E7FABB7EB075CAC90DE07759AC5B24EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E2C7666F16CFF9BABE0EF21D7F9D16B /* Debug */ = {
+		1499A3A0EC8CB9AB10642D9477619BB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC0E4B78190689B78382B7F5DFC19DD4 /* Pods-TQIBankTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3B1B8116C63FB35BFB57046238EDAB75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF2BD6EA81106F09BEFDBF5F92CA5581 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */;
+			baseConfigurationReference = 5DE415F809DE2B6B5F06D24B46CD7635 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -637,7 +956,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -659,7 +978,188 @@
 			};
 			name = Release;
 		};
-		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+		17786C8ED6E73AA1B925022FC3B163FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9120D27048FDF8B21E24B3F6D626E57 /* VFNetwork.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VFNetwork/VFNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VFNetwork/VFNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VFNetwork/VFNetwork.modulemap";
+				PRODUCT_MODULE_NAME = VFNetwork;
+				PRODUCT_NAME = VFNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD1736ED6E5CB072B1947E56363329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400059D51B681453761072FF84984AE8 /* Pods-TQIBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D343EA3A8C496B2BFB875E02323085D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5000718681CBA575CD47D65DA77136EB /* Pods-TQIBank.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F285E98BC05C691369D8A26B59A05F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC14AB1616A9247523955B3C4FB93F9 /* TQICoordinator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TQICoordinator/TQICoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TQICoordinator/TQICoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TQICoordinator/TQICoordinator.modulemap";
+				PRODUCT_MODULE_NAME = TQICoordinator;
+				PRODUCT_NAME = TQICoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CA90EC4B2159FF770B49993CBBCC3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FC9E828220D52A6F86247CC0D15897 /* TQICoordinator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TQICoordinator/TQICoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TQICoordinator/TQICoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TQICoordinator/TQICoordinator.modulemap";
+				PRODUCT_MODULE_NAME = TQICoordinator;
+				PRODUCT_NAME = TQICoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -712,7 +1212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -725,7 +1225,7 @@
 			};
 			name = Debug;
 		};
-		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -775,7 +1275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -787,9 +1287,155 @@
 			};
 			name = Release;
 		};
-		98DDD2969EF07CB8787B23926B287C4E /* Debug */ = {
+		9CD51100FC4B9F9887810CF87B0073DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A686ABB1E85C16F5AA6EA123EEB19E /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */;
+			baseConfigurationReference = B520975427243BB7E97A8B1AFFFA8FD8 /* TQIExtract.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TQIExtract/TQIExtract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TQIExtract/TQIExtract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TQIExtract/TQIExtract.modulemap";
+				PRODUCT_MODULE_NAME = TQIExtract;
+				PRODUCT_NAME = TQIExtract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6FD58C8B01A1B8895866E4353C25CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F9DBF1B872A7A96E0FA23FF0ED2B3D /* Pods-TQIBank.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC38C554BBA538B036E15358CCB948BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC27EC1A088A0E7E6A846DC27089B8E6 /* VFNetwork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VFNetwork/VFNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VFNetwork/VFNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VFNetwork/VFNetwork.modulemap";
+				PRODUCT_MODULE_NAME = VFNetwork;
+				PRODUCT_NAME = VFNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8A853218DF473CFE07392CFE15FBC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BAA584431253504098473525DDBCA8 /* TQIExtract.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TQIExtract/TQIExtract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TQIExtract/TQIExtract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TQIExtract/TQIExtract.modulemap";
+				PRODUCT_MODULE_NAME = TQIExtract;
+				PRODUCT_NAME = TQIExtract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D251FBAFA41AFACC538A700D699E8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E2A414395F357D4CFE9D4BFD9F0FCC /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -803,7 +1449,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -824,9 +1470,9 @@
 			};
 			name = Debug;
 		};
-		AE182E0FCDFBBC88B8CA735F41C20846 /* Release */ = {
+		F0FD58729BA6F7DB418AEB636C30250C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A13303849B6C096EA60B2418C405D5BD /* Pods-TQIBankTests.release.xcconfig */;
+			baseConfigurationReference = F2F11B247CADC9F0F1C608467217E01A /* Pods-TQIBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -840,7 +1486,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -862,169 +1508,23 @@
 			};
 			name = Release;
 		};
-		DAB7FC40D9730967677DE52D165188B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04E0F89F9D72A4056C5E59FB59BEB129 /* VFNetwork.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VFNetwork/VFNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VFNetwork/VFNetwork-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/VFNetwork/VFNetwork.modulemap";
-				PRODUCT_MODULE_NAME = VFNetwork;
-				PRODUCT_NAME = VFNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E057D1EF70971E47FE87C42BFCF1A8C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 819EF57E065C81713557EBE968E02D8A /* VFNetwork.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VFNetwork/VFNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VFNetwork/VFNetwork-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/VFNetwork/VFNetwork.modulemap";
-				PRODUCT_MODULE_NAME = VFNetwork;
-				PRODUCT_NAME = VFNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F82076CD3F1D6C7AB85E3C5A8629E283 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3BB09B9A6CEA55D37F451985B874909 /* Pods-TQIBank.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F916A4817D8167A11DE8DB643EA0C3C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33DCEBABAE772C157397DCFA1EB6795A /* Pods-TQIBank.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TQIBank/Pods-TQIBank.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1810B1815BD11A0FCE3DF9C8BD5E8BBC /* Build configuration list for PBXNativeTarget "Pods-TQIBank" */ = {
+		1372CAA8FB2052F86841F95A51C42486 /* Build configuration list for PBXNativeTarget "VFNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F82076CD3F1D6C7AB85E3C5A8629E283 /* Debug */,
-				F916A4817D8167A11DE8DB643EA0C3C2 /* Release */,
+				AC38C554BBA538B036E15358CCB948BE /* Debug */,
+				17786C8ED6E73AA1B925022FC3B163FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A2C47D7BEA8D7EEE5270C6D85067C94 /* Build configuration list for PBXNativeTarget "Pods-TQIBank-TQIBankUITests" */ = {
+		3CA70381FE375CE328613EBEAEEC398F /* Build configuration list for PBXNativeTarget "TQICoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98DDD2969EF07CB8787B23926B287C4E /* Debug */,
-				3B1B8116C63FB35BFB57046238EDAB75 /* Release */,
+				3F285E98BC05C691369D8A26B59A05F1 /* Debug */,
+				8CA90EC4B2159FF770B49993CBBCC3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1032,26 +1532,44 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
-				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FE0428BC892A36F68957D6C8777B264 /* Build configuration list for PBXNativeTarget "Pods-TQIBankTests" */ = {
+		5AFA796105D9F05844DED343624239F2 /* Build configuration list for PBXNativeTarget "Pods-TQIBank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E2C7666F16CFF9BABE0EF21D7F9D16B /* Debug */,
-				AE182E0FCDFBBC88B8CA735F41C20846 /* Release */,
+				2D343EA3A8C496B2BFB875E02323085D /* Debug */,
+				A6FD58C8B01A1B8895866E4353C25CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95B13F2AC7B04272889D274A9D00838A /* Build configuration list for PBXNativeTarget "VFNetwork" */ = {
+		6CE88714268545AA2C6C9D943833CE6D /* Build configuration list for PBXNativeTarget "Pods-TQIBank-TQIBankUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E057D1EF70971E47FE87C42BFCF1A8C1 /* Debug */,
-				DAB7FC40D9730967677DE52D165188B7 /* Release */,
+				D251FBAFA41AFACC538A700D699E8A21 /* Debug */,
+				1499A3A0EC8CB9AB10642D9477619BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDF4336C5561582C289297A55EBDE19 /* Build configuration list for PBXNativeTarget "Pods-TQIBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD1736ED6E5CB072B1947E56363329 /* Debug */,
+				F0FD58729BA6F7DB418AEB636C30250C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D79B14A34D03612B63FFEBF14FBC2B8 /* Build configuration list for PBXNativeTarget "TQIExtract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A853218DF473CFE07392CFE15FBC2C /* Debug */,
+				9CD51100FC4B9F9887810CF87B0073DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

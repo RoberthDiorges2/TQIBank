@@ -7,6 +7,10 @@
 
 import VFNetwork
 
+protocol HomeViewModelCoordinatorDelegate: AnyObject {
+    func homeViewModelGoToExtract(_ viewModel: HomeViewModel)
+}
+
 protocol HomeViewModelViewDelegate: AnyObject {
     func homeViewModelSuccess(_ viewModel: HomeViewModel)
     func homeViewModelFailure(_ viewModel: HomeViewModel, error: Error)
@@ -15,6 +19,7 @@ protocol HomeViewModelViewDelegate: AnyObject {
 class HomeViewModel {
     
     weak var viewDelegate: HomeViewModelViewDelegate?
+    weak var coordinatorDelegate: HomeViewModelCoordinatorDelegate?
     var model: MenuOptions
     public let service: HomeService
     
@@ -34,5 +39,9 @@ class HomeViewModel {
                 self.viewDelegate?.homeViewModelFailure(self, error: error)
             }
         }
+    }
+    
+    func startExtract() {
+        coordinatorDelegate?.homeViewModelGoToExtract(self)
     }
 }
