@@ -41,7 +41,7 @@ class HomeViewModel {
         }
     }
     
-    func startExtract() {
+    func goToExtract() {
         coordinatorDelegate?.homeViewModelGoToExtract(self)
     }
 }
