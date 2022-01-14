@@ -68,8 +68,8 @@ Estamos utilizando as seguintes dependências externas:
 ## Autores
 
 <h5>Roberth Diorges | iOS Specialist</h5>
-<img src="" style="border: none; border-radius:50%" width="100" height="100">
-<a href=""><img align="left" alt="Roberth | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<img src="https://avatars.githubusercontent.com/u/44243456?s=400&u=b585631da49e210e369173b5a31610e1adbb2484&v=4" style="border: none; border-radius:50%" width="100" height="100">
+<a href="https://www.linkedin.com/in/roberthdiorges/"><img align="left" alt="Roberth Diorges | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <br>
 <h5>Victor Freitas | iOS Specialist</h5>
 <img src="https://avatars.githubusercontent.com/u/33930810?s=400&u=de2cb07d58b8c7948bac1654a66bd54e6999a2a1&v=4" style="border: none; border-radius:50%" width="100" height="100">
