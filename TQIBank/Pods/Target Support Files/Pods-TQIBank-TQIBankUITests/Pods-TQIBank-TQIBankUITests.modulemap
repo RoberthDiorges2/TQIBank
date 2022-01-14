@@ -1,0 +1,6 @@
+framework module Pods_TQIBank_TQIBankUITests {
+  umbrella header "Pods-TQIBank-TQIBankUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -20,10 +20,8 @@ class AppCoordinator {
     }
     
     func start() {
-        viewModel = LoginViewModel()
-        loginViewController = LoginViewController(viewModel: viewModel!)
         loginCoordinator = LoginCoordinator(window: self.window)
-        window.rootViewController = loginViewController
+        loginCoordinator?.start()
     }
 }
 

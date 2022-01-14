@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="TQIBank" customModuleProvider="target">
             <connections>
+                <outlet property="indicatorView" destination="PkI-od-2Po" id="0pD-FG-kvb"/>
                 <outlet property="passwordTextField" destination="eoz-d6-R4f" id="sQ6-OH-dxZ"/>
                 <outlet property="userTextField" destination="n1w-su-u7o" id="C8a-yf-6L5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -62,12 +63,20 @@
                         <action selector="signInButtonPressed:" destination="-1" eventType="touchUpInside" id="adO-y1-fLf"/>
                     </connections>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="PkI-od-2Po">
+                    <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="4qG-Aq-xBy"/>
+                        <constraint firstAttribute="width" constant="37" id="vm1-uX-c3b"/>
+                    </constraints>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="WMb-xO-M0q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5BA-2L-Qdi"/>
                 <constraint firstItem="xiS-jl-4Qm" firstAttribute="top" secondItem="WMb-xO-M0q" secondAttribute="bottom" constant="20" id="CsD-Kg-84a"/>
+                <constraint firstItem="PkI-od-2Po" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LIP-CB-qaR"/>
                 <constraint firstItem="WMb-xO-M0q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Q5K-rU-cwN"/>
                 <constraint firstItem="dTy-8V-IvP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Uvg-Dx-cSD"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xiS-jl-4Qm" secondAttribute="trailing" constant="40" id="YTK-ZN-3st"/>
@@ -75,6 +84,7 @@
                 <constraint firstItem="WMb-xO-M0q" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="fEX-GG-cfV"/>
                 <constraint firstItem="xiS-jl-4Qm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="hlC-ug-3bB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WMb-xO-M0q" secondAttribute="trailing" constant="16" id="j0X-14-aN5"/>
+                <constraint firstItem="PkI-od-2Po" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="k6y-dX-3nl"/>
             </constraints>
             <point key="canvasLocation" x="-68.115942028985515" y="138.61607142857142"/>
         </view>

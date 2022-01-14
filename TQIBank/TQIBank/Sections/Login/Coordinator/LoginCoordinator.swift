@@ -9,13 +9,32 @@ import UIKit
 
 class LoginCoordinator {
     
-    var window: UIWindow?
+    var window: UIWindow
+    var viewModel: LoginViewModel?
+    var loginViewController: LoginViewController?
+    var navigationController: UINavigationController?
+    
+    var homeView: HomeViewController?
+    var homeCoordinator: HomeViewCoordinator?
     
     required init(window: UIWindow) {
         self.window = window
     }
     
     func start() {
+        viewModel = LoginViewModel()
+        viewModel?.coordinatorDelegate = self
+        loginViewController = LoginViewController(viewModel: viewModel!)
         
+        navigationController = UINavigationController(rootViewController: loginViewController!)
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        window.rootViewController = navigationController
+    }
+}
+
+extension LoginCoordinator: LoginViewModelCoordinatorDelegate {
+    func loginViewModelGoToHome(_ viewModel: LoginViewModel, user: User) {
+        homeCoordinator = HomeViewCoordinator()
+        homeCoordinator?.start(usingPresenter: .present(navigationController!), animated: true)
     }
 }

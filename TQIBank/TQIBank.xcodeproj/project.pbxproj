@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2011BB462790B75C0001DEBE /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB442790B75C0001DEBE /* MenuCollectionViewCell.swift */; };
+		2011BB472790B75C0001DEBE /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2011BB452790B75C0001DEBE /* MenuCollectionViewCell.xib */; };
+		2011BB502790B92A0001DEBE /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB4F2790B92A0001DEBE /* HomeAPI.swift */; };
+		2011BB582790B9400001DEBE /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB572790B9400001DEBE /* HomeService.swift */; };
+		2011BB662790BBBE0001DEBE /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB652790BBBE0001DEBE /* MenuOptions.swift */; };
+		2011BB6F2790BE950001DEBE /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB6E2790BE950001DEBE /* UICollectionView+Extensions.swift */; };
+		2011BB772790BEE10001DEBE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB762790BEE10001DEBE /* UIView+Extension.swift */; };
 		20B0E6DA278E5A1100A13675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E6D9278E5A1100A13675 /* AppDelegate.swift */; };
 		20B0E6DC278E5A1100A13675 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E6DB278E5A1100A13675 /* SceneDelegate.swift */; };
 		20B0E6E3278E5A1200A13675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B0E6E2278E5A1200A13675 /* Assets.xcassets */; };
@@ -28,6 +35,12 @@
 		20B0E75E278F153900A13675 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E75D278F153900A13675 /* Errors.swift */; };
 		20B0E763278F162800A13675 /* ModuleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E762278F162800A13675 /* ModuleDestination.swift */; };
 		20B0E768278F165A00A13675 /* TQIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E767278F165A00A13675 /* TQIRouter.swift */; };
+		20FD4E5C278F5C9800B23ECE /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E5B278F5C9800B23ECE /* LoginAPI.swift */; };
+		20FD4E64278F5CA700B23ECE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E63278F5CA700B23ECE /* LoginService.swift */; };
+		20FD4E6A278F6AE200B23ECE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E69278F6AE200B23ECE /* User.swift */; };
+		735CF3EA66AE9FDB78CCC400 /* Pods_TQIBank_TQIBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FC6E2773BB9FC701B50DD /* Pods_TQIBank_TQIBankUITests.framework */; };
+		77A6803D8B00B56150C89F2F /* Pods_TQIBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069B50F94B6A38821E860F67 /* Pods_TQIBankTests.framework */; };
+		8ACC1AE4135003C7086C7CD0 /* Pods_TQIBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F0DFBBCC2A04F861F9772 /* Pods_TQIBank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +61,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017FC6E2773BB9FC701B50DD /* Pods_TQIBank_TQIBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBank_TQIBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		069B50F94B6A38821E860F67 /* Pods_TQIBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2011BB442790B75C0001DEBE /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		2011BB452790B75C0001DEBE /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		2011BB4F2790B92A0001DEBE /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		2011BB572790B9400001DEBE /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		2011BB652790BBBE0001DEBE /* MenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
+		2011BB6E2790BE950001DEBE /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		2011BB762790BEE10001DEBE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		20B0E6D6278E5A1100A13675 /* TQIBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQIBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B0E6D9278E5A1100A13675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20B0E6DB278E5A1100A13675 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +97,16 @@
 		20B0E75D278F153900A13675 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		20B0E762278F162800A13675 /* ModuleDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDestination.swift; sourceTree = "<group>"; };
 		20B0E767278F165A00A13675 /* TQIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQIRouter.swift; sourceTree = "<group>"; };
+		20FD4E5B278F5C9800B23ECE /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		20FD4E63278F5CA700B23ECE /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		20FD4E69278F6AE200B23ECE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22EDB69DCD8564BD3E2EE191 /* Pods-TQIBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank.debug.xcconfig"; path = "Target Support Files/Pods-TQIBank/Pods-TQIBank.debug.xcconfig"; sourceTree = "<group>"; };
+		388F0DFBBCC2A04F861F9772 /* Pods_TQIBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDD673FF87D7697D560F7EC /* Pods-TQIBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankTests.release.xcconfig"; path = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		8041AA882A9D4084B216ED68 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank-TQIBankUITests.release.xcconfig"; path = "Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		946CFA782E33AE3C50082CBA /* Pods-TQIBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankTests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5CFB6E565B8C9A83DD8CDEF /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank-TQIBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5DBE5F35169D8506C726213 /* Pods-TQIBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank.release.xcconfig"; path = "Target Support Files/Pods-TQIBank/Pods-TQIBank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ACC1AE4135003C7086C7CD0 /* Pods_TQIBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A6803D8B00B56150C89F2F /* Pods_TQIBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +130,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735CF3EA66AE9FDB78CCC400 /* Pods_TQIBank_TQIBankUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A39F9642D1238C0D3DB6B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388F0DFBBCC2A04F861F9772 /* Pods_TQIBank.framework */,
+				017FC6E2773BB9FC701B50DD /* Pods_TQIBank_TQIBankUITests.framework */,
+				069B50F94B6A38821E860F67 /* Pods_TQIBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2011BB432790B7330001DEBE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2011BB442790B75C0001DEBE /* MenuCollectionViewCell.swift */,
+				2011BB452790B75C0001DEBE /* MenuCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2011BB4E2790B9190001DEBE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2011BB4F2790B92A0001DEBE /* HomeAPI.swift */,
+				2011BB572790B9400001DEBE /* HomeService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2011BB5C2790B9D40001DEBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2011BB652790BBBE0001DEBE /* MenuOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2011BB6D2790BE750001DEBE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2011BB6E2790BE950001DEBE /* UICollectionView+Extensions.swift */,
+				2011BB762790BEE10001DEBE /* UIView+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		20B0E6CD278E5A1100A13675 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +189,8 @@
 				20B0E6EF278E5A1200A13675 /* TQIBankTests */,
 				20B0E6FA278E5A1200A13675 /* TQIBankUITests */,
 				20B0E6D7278E5A1100A13675 /* Products */,
+				C43C503EA3B3338FE998E551 /* Pods */,
+				1A39F9642D1238C0D3DB6B31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +207,7 @@
 		20B0E6D8278E5A1100A13675 /* TQIBank */ = {
 			isa = PBXGroup;
 			children = (
+				2011BB6D2790BE750001DEBE /* Utils */,
 				20B0E73C278E5E1E00A13675 /* Resources */,
 				20B0E738278E5DDD00A13675 /* AppDelegate */,
 				20B0E737278E5DD200A13675 /* Common */,
@@ -163,6 +246,8 @@
 		20B0E70D278E5B0200A13675 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2011BB5C2790B9D40001DEBE /* Model */,
+				2011BB4E2790B9190001DEBE /* Network */,
 				20B0E714278E5BFB00A13675 /* View */,
 				20B0E713278E5BF600A13675 /* Coordinator */,
 				20B0E712278E5BF100A13675 /* ViewModel */,
@@ -173,6 +258,8 @@
 		20B0E70E278E5B0700A13675 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				20FD4E68278F638200B23ECE /* Model */,
+				20FD4E5A278F5C8600B23ECE /* Network */,
 				20B0E711278E5BEA00A13675 /* Coordinator */,
 				20B0E710278E5B2300A13675 /* ViewModel */,
 				20B0E70F278E5B1C00A13675 /* View */,
@@ -224,6 +311,7 @@
 		20B0E714278E5BFB00A13675 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2011BB432790B7330001DEBE /* Cells */,
 				20B0E71C278E5C3800A13675 /* HomeViewController.swift */,
 				20B0E71D278E5C3800A13675 /* HomeViewController.xib */,
 			);
@@ -263,6 +351,36 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		20FD4E5A278F5C8600B23ECE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				20FD4E5B278F5C9800B23ECE /* LoginAPI.swift */,
+				20FD4E63278F5CA700B23ECE /* LoginService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		20FD4E68278F638200B23ECE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20FD4E69278F6AE200B23ECE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C43C503EA3B3338FE998E551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22EDB69DCD8564BD3E2EE191 /* Pods-TQIBank.debug.xcconfig */,
+				D5DBE5F35169D8506C726213 /* Pods-TQIBank.release.xcconfig */,
+				C5CFB6E565B8C9A83DD8CDEF /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */,
+				8041AA882A9D4084B216ED68 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */,
+				946CFA782E33AE3C50082CBA /* Pods-TQIBankTests.debug.xcconfig */,
+				4CDD673FF87D7697D560F7EC /* Pods-TQIBankTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B0E700278E5A1200A13675 /* Build configuration list for PBXNativeTarget "TQIBank" */;
 			buildPhases = (
+				650AB12E7D027C0552F86AFA /* [CP] Check Pods Manifest.lock */,
 				20B0E6D2278E5A1100A13675 /* Sources */,
 				20B0E6D3278E5A1100A13675 /* Frameworks */,
 				20B0E6D4278E5A1100A13675 /* Resources */,
+				C934F48FDB97DAA3D8247145 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +407,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B0E703278E5A1200A13675 /* Build configuration list for PBXNativeTarget "TQIBankTests" */;
 			buildPhases = (
+				52C7DF6773ECE3533E68B84D /* [CP] Check Pods Manifest.lock */,
 				20B0E6E8278E5A1200A13675 /* Sources */,
 				20B0E6E9278E5A1200A13675 /* Frameworks */,
 				20B0E6EA278E5A1200A13675 /* Resources */,
@@ -305,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B0E706278E5A1200A13675 /* Build configuration list for PBXNativeTarget "TQIBankUITests" */;
 			buildPhases = (
+				B8744992A92050FB596935D9 /* [CP] Check Pods Manifest.lock */,
 				20B0E6F3278E5A1200A13675 /* Sources */,
 				20B0E6F4278E5A1200A13675 /* Frameworks */,
 				20B0E6F5278E5A1200A13675 /* Resources */,
+				D57039ADC2DE88AE9FEB6E18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -368,6 +491,7 @@
 			files = (
 				20B0E718278E5C1F00A13675 /* LoginViewController.xib in Resources */,
 				20B0E6E6278E5A1200A13675 /* LaunchScreen.storyboard in Resources */,
+				2011BB472790B75C0001DEBE /* MenuCollectionViewCell.xib in Resources */,
 				20B0E71F278E5C3800A13675 /* HomeViewController.xib in Resources */,
 				20B0E6E3278E5A1200A13675 /* Assets.xcassets in Resources */,
 			);
@@ -389,25 +513,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52C7DF6773ECE3533E68B84D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQIBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		650AB12E7D027C0552F86AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQIBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8744992A92050FB596935D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQIBank-TQIBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C934F48FDB97DAA3D8247145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57039ADC2DE88AE9FEB6E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20B0E6D2278E5A1100A13675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2011BB582790B9400001DEBE /* HomeService.swift in Sources */,
+				20FD4E64278F5CA700B23ECE /* LoginService.swift in Sources */,
 				20B0E763278F162800A13675 /* ModuleDestination.swift in Sources */,
 				20B0E71E278E5C3800A13675 /* HomeViewController.swift in Sources */,
 				20B0E759278F14DB00A13675 /* RouterLocation.swift in Sources */,
 				20B0E733278E5DC600A13675 /* HomeViewModel.swift in Sources */,
 				20B0E74F278F145D00A13675 /* Coordinator.swift in Sources */,
 				20B0E717278E5C1F00A13675 /* LoginViewController.swift in Sources */,
+				2011BB502790B92A0001DEBE /* HomeAPI.swift in Sources */,
 				20B0E768278F165A00A13675 /* TQIRouter.swift in Sources */,
+				2011BB462790B75C0001DEBE /* MenuCollectionViewCell.swift in Sources */,
 				20B0E754278F148600A13675 /* CoordinatorPresenter.swift in Sources */,
 				20B0E729278E5C5900A13675 /* LoginCoordinator.swift in Sources */,
 				20B0E75E278F153900A13675 /* Errors.swift in Sources */,
+				2011BB662790BBBE0001DEBE /* MenuOptions.swift in Sources */,
 				20B0E724278E5C4600A13675 /* LoginViewModel.swift in Sources */,
 				20B0E72E278E5DB200A13675 /* HomeCoordinator.swift in Sources */,
+				20FD4E5C278F5C9800B23ECE /* LoginAPI.swift in Sources */,
+				20FD4E6A278F6AE200B23ECE /* User.swift in Sources */,
+				2011BB6F2790BE950001DEBE /* UICollectionView+Extensions.swift in Sources */,
 				20B0E747278E60AA00A13675 /* AppCoordinator.swift in Sources */,
 				20B0E6DA278E5A1100A13675 /* AppDelegate.swift in Sources */,
+				2011BB772790BEE10001DEBE /* UIView+Extension.swift in Sources */,
 				20B0E6DC278E5A1100A13675 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,6 +809,7 @@
 		};
 		20B0E701278E5A1200A13675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EDB69DCD8564BD3E2EE191 /* Pods-TQIBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -591,6 +828,7 @@
 		};
 		20B0E702278E5A1200A13675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DBE5F35169D8506C726213 /* Pods-TQIBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -609,6 +847,7 @@
 		};
 		20B0E704278E5A1200A13675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946CFA782E33AE3C50082CBA /* Pods-TQIBankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,6 +869,7 @@
 		};
 		20B0E705278E5A1200A13675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDD673FF87D7697D560F7EC /* Pods-TQIBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -651,6 +891,7 @@
 		};
 		20B0E707278E5A1200A13675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CFB6E565B8C9A83DD8CDEF /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -670,6 +911,7 @@
 		};
 		20B0E708278E5A1200A13675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8041AA882A9D4084B216ED68 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

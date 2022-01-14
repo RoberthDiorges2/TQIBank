@@ -58,5 +58,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>Base_URL</key>
+    <string>private-1c4f09-tqibankapi.apiary-mock.com</string>
+    <key>Protocol</key>
+    <string>https</string>
+    <key>Environment</key>
+    <string>sandbox</string>
 </dict>
 </plist>
