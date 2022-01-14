@@ -2,8 +2,6 @@
 Projeto desenvolvido para Aceleração iOS em parceria com a DIO (Digital Innovation One)
 
 
-# Modulo de Extrato do TQIBank.
-
 [![Build](https://github.com/vafreitas/ios-mod-extract/actions/workflows/swift.yml/badge.svg)](https://github.com/vafreitas/ios-mod-extract/actions/workflows/swift.yml)
 [![Version](https://img.shields.io/badge/pod-v1.0.0-blue)](https://github.com/vafreitas/ios-mod-extract)
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey)](https://github.com/vafreitas/ios-mod-extract)
@@ -11,7 +9,7 @@ Projeto desenvolvido para Aceleração iOS em parceria com a DIO (Digital Innova
 
 ## Introdução
 
-Este é um repositório publico exemplificando um projeto seguindo a arquitetura MVVM-C e usando a estratégia multi-repositório utilizando o gerenciador de dependências [CocoaPods](https://cocoapods.org/).
+Este é um repositório público exemplificando um projeto seguindo a arquitetura MVVM-C e usando a estratégia multi-repositório utilizando o gerenciador de dependências [CocoaPods](https://cocoapods.org/).
 Nele voce irá encontrar uma tela que simula um menu de opções e de extrato bancário.
 
 Fizemos as telas de duas formas, utilizando:
@@ -21,14 +19,20 @@ Fizemos as telas de duas formas, utilizando:
 Utilizamos o provedor [Apiary](https://apiary.io/), que simula uma api utilizando payloads mockados, abaixo você encontra a documentação da api criada e utilizada neste módulo.
  - [Documentação da API](https://tqibankapi.docs.apiary.io/#)
 
-## Projeto de Exemplo
+## Projeto Principal
 
-Pra rodar o projeto basta clonar o repositório e dentro da pasta **Example** rodar `pod install` no terminal.
+Pra rodar o projeto basta clonar o repositório e dentro da pasta **TQIBank** rodar `pod install` no terminal. Após isso, executar no Xcode.
 
 ## Requerimentos
 
 - Xcode 13.1
 - Swift 5
+
+## ========== Sobre o Módulo de Extrato ==========
+
+## Projeto de Exemplo
+
+Pra rodar o projeto de exemplo basta clonar o repositório e dentro da pasta **Example** rodar `pod install` no terminal.
 
 ## CI - Github Actions
 
