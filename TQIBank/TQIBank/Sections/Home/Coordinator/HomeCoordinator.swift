@@ -10,9 +10,9 @@ import TQICoordinator
 import TQIExtract
 
 class HomeViewCoordinator: Coordinator {
-    
-    var delegate: CoordinatorDelegate?
-    var childCoordinator: Coordinator?
+   
+    var navigation: UINavigationController?
+    var presentationType: PresentationType?
     var viewController: UIViewController!
     var navigationController: UINavigationController?
     
@@ -30,16 +30,20 @@ class HomeViewCoordinator: Coordinator {
         navigationController = UINavigationController(rootViewController: viewController)
     }
     
-    func start() {
-        
+    func stop() {
+        navigation = nil
+        presentationType = nil
+        viewModel = nil
+        view = nil
     }
+
 }
 
 extension HomeViewCoordinator: HomeViewModelCoordinatorDelegate {
     func homeViewModelGoToExtract(_ viewModel: HomeViewModel) {
         guard let navigation = navigationController else { return }
         extractCoordinator = ExtractCoordinator()
-        extractCoordinator?.start(usingPresenter: .push(navigation), animated: true)
-        extractCoordinator?.viewController.navigationController?.setNavigationBarHidden(false, animated: true)
+        extractCoordinator?.start(usingPresentation: .push(navigation: navigation))
+        //extractCoordinator?.viewController.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 }

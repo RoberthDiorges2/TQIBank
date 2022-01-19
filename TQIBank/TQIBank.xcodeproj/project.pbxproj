@@ -375,7 +375,7 @@
 				20B0E6D3278E5A1100A13675 /* Frameworks */,
 				20B0E6D4278E5A1100A13675 /* Resources */,
 				C934F48FDB97DAA3D8247145 /* [CP] Embed Pods Frameworks */,
-				8178C5E77ECE02E837EECEDA /* [CP] Copy Pods Resources */,
+				100EA3EAFD983B2B3D2D65E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -414,7 +414,7 @@
 				20B0E6F4278E5A1200A13675 /* Frameworks */,
 				20B0E6F5278E5A1200A13675 /* Resources */,
 				D57039ADC2DE88AE9FEB6E18 /* [CP] Embed Pods Frameworks */,
-				0ED4BB489FDED2BEC2BD4910 /* [CP] Copy Pods Resources */,
+				A551028EA7D4AA34A31D1BD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -498,7 +498,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0ED4BB489FDED2BEC2BD4910 /* [CP] Copy Pods Resources */ = {
+		100EA3EAFD983B2B3D2D65E1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -510,7 +510,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		52C7DF6773ECE3533E68B84D /* [CP] Check Pods Manifest.lock */ = {
@@ -557,7 +557,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8178C5E77ECE02E837EECEDA /* [CP] Copy Pods Resources */ = {
+		A551028EA7D4AA34A31D1BD6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -569,7 +569,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank/Pods-TQIBank-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8744992A92050FB596935D9 /* [CP] Check Pods Manifest.lock */ = {

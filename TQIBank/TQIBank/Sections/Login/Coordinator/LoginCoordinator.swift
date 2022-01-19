@@ -34,7 +34,8 @@ class LoginCoordinator {
 
 extension LoginCoordinator: LoginViewModelCoordinatorDelegate {
     func loginViewModelGoToHome(_ viewModel: LoginViewModel, user: User) {
+        guard let navigation = self.navigationController else { return }
         homeCoordinator = HomeViewCoordinator()
-        homeCoordinator?.start(usingPresenter: .present(navigationController!), animated: true)
+        homeCoordinator?.start(usingPresentation: .push(navigation: navigation))
     }
 }

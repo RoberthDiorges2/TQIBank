@@ -1,6 +1,6 @@
 PODS:
-  - TQICoordinator (1.0.0)
-  - TQIExtract (1.0.0):
+  - TQICoordinator (1.1.0)
+  - TQIExtract (1.1.0):
     - TQICoordinator
     - VFNetwork
   - VFNetwork (1.4.1)
@@ -22,15 +22,15 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TQICoordinator:
-    :commit: 86e1df009d26faa13f24739eb4225a283cb614a4
+    :commit: c821294082a55b57f7884be8d3a797be0d6db1b3
     :git: https://github.com/vafreitas/ios-mod-coordinator.git
   TQIExtract:
-    :commit: b644e59381e4b23601fc6efb2a199ba96ecedab8
+    :commit: 71fdf2e786e445a25cae10311d28c500a09187e2
     :git: https://github.com/vafreitas/ios-mod-extract.git
 
 SPEC CHECKSUMS:
-  TQICoordinator: 2241838b8a060270ceb4734932e4c28d52e3560e
-  TQIExtract: 7ef9a269508460f968cdf1daf53f382ef6864a9d
+  TQICoordinator: 43c342be3dc6732aea451ddcde9675de3bebe711
+  TQIExtract: e5281c99b163815a2a8f4ef4eca5c9d721e4e26a
   VFNetwork: 2070046bcd8b7e766affc3d1a4cd7729c3b38880
 
 PODFILE CHECKSUM: 050c2d043cf3643f5be1cd36ddddd1043be94ad7
