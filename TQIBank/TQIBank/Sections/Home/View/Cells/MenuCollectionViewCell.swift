@@ -13,6 +13,6 @@ class MenuCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var menuNameLabel: UILabel!
     
     public func setup(option: MenuOption) {
-        menuNameLabel.text = option.optionName
+        menuNameLabel.text = option.name
     }
 }

@@ -13,8 +13,6 @@ class HomeViewCoordinator: Coordinator {
    
     var navigation: UINavigationController?
     var presentationType: PresentationType?
-    var viewController: UIViewController!
-    var navigationController: UINavigationController?
     
     var viewModel: HomeViewModel?
     var view: HomeViewController?
@@ -25,9 +23,6 @@ class HomeViewCoordinator: Coordinator {
         viewModel = HomeViewModel()
         viewModel?.coordinatorDelegate = self
         view = HomeViewController(viewModel: viewModel!)
-        viewController = view
-        
-        navigationController = UINavigationController(rootViewController: viewController)
     }
     
     func stop() {
@@ -36,14 +31,12 @@ class HomeViewCoordinator: Coordinator {
         viewModel = nil
         view = nil
     }
-
 }
 
 extension HomeViewCoordinator: HomeViewModelCoordinatorDelegate {
     func homeViewModelGoToExtract(_ viewModel: HomeViewModel) {
-        guard let navigation = navigationController else { return }
+        guard let navigation = navigation else { return }
         extractCoordinator = ExtractCoordinator()
         extractCoordinator?.start(usingPresentation: .push(navigation: navigation))
-        //extractCoordinator?.viewController.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 }

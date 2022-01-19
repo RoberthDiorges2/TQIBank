@@ -16,6 +16,6 @@ public struct MenuOptions: VCodable {
 }
 
 public struct MenuOption: VCodable {
-    public var id: String = ""
-    public var optionName: String = ""
+    public var url: String = ""
+    public var name: String = ""
 }
