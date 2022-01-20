@@ -13,7 +13,8 @@
 		2011BB582790B9400001DEBE /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB572790B9400001DEBE /* HomeService.swift */; };
 		2011BB662790BBBE0001DEBE /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB652790BBBE0001DEBE /* MenuOptions.swift */; };
 		2011BB6F2790BE950001DEBE /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB6E2790BE950001DEBE /* UICollectionView+Extensions.swift */; };
-		2011BB772790BEE10001DEBE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB762790BEE10001DEBE /* UIView+Extension.swift */; };
+		2011BB772790BEE10001DEBE /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011BB762790BEE10001DEBE /* UICollectionReusableView+Extension.swift */; };
+		20855F7D2799C16200241C0A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20855F7C2799C16200241C0A /* UIView+Extension.swift */; };
 		20B0E6DA278E5A1100A13675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E6D9278E5A1100A13675 /* AppDelegate.swift */; };
 		20B0E6DC278E5A1100A13675 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0E6DB278E5A1100A13675 /* SceneDelegate.swift */; };
 		20B0E6E3278E5A1200A13675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B0E6E2278E5A1200A13675 /* Assets.xcassets */; };
@@ -63,7 +64,8 @@
 		2011BB572790B9400001DEBE /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		2011BB652790BBBE0001DEBE /* MenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
 		2011BB6E2790BE950001DEBE /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
-		2011BB762790BEE10001DEBE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2011BB762790BEE10001DEBE /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
+		20855F7C2799C16200241C0A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		20B0E6D6278E5A1100A13675 /* TQIBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQIBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B0E6D9278E5A1100A13675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20B0E6DB278E5A1100A13675 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,7 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				2011BB6E2790BE950001DEBE /* UICollectionView+Extensions.swift */,
-				2011BB762790BEE10001DEBE /* UIView+Extension.swift */,
+				2011BB762790BEE10001DEBE /* UICollectionReusableView+Extension.swift */,
+				20855F7C2799C16200241C0A /* UIView+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -643,11 +646,12 @@
 				20B0E724278E5C4600A13675 /* LoginViewModel.swift in Sources */,
 				20B0E72E278E5DB200A13675 /* HomeCoordinator.swift in Sources */,
 				20FD4E5C278F5C9800B23ECE /* LoginAPI.swift in Sources */,
+				20855F7D2799C16200241C0A /* UIView+Extension.swift in Sources */,
 				20FD4E6A278F6AE200B23ECE /* User.swift in Sources */,
 				2011BB6F2790BE950001DEBE /* UICollectionView+Extensions.swift in Sources */,
 				20B0E747278E60AA00A13675 /* AppCoordinator.swift in Sources */,
 				20B0E6DA278E5A1100A13675 /* AppDelegate.swift in Sources */,
-				2011BB772790BEE10001DEBE /* UIView+Extension.swift in Sources */,
+				2011BB772790BEE10001DEBE /* UICollectionReusableView+Extension.swift in Sources */,
 				20B0E6DC278E5A1100A13675 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

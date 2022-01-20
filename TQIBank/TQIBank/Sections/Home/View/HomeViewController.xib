@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -67,7 +67,7 @@
                     </constraints>
                 </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ek6-V9-gKV">
-                    <rect key="frame" x="0.0" y="244" width="414" height="618"/>
+                    <rect key="frame" x="16" y="244" width="382" height="618"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aY0-kD-BdU">
                         <size key="itemSize" width="128" height="128"/>
@@ -93,9 +93,9 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="ek6-V9-gKV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BCA-Qj-dLB"/>
+                <constraint firstItem="ek6-V9-gKV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="BCA-Qj-dLB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qsj-Qt-h5o" secondAttribute="trailing" constant="16" id="EKx-3U-C2Y"/>
-                <constraint firstItem="ek6-V9-gKV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="EeO-ux-9RQ"/>
+                <constraint firstItem="ek6-V9-gKV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-16" id="EeO-ux-9RQ"/>
                 <constraint firstItem="f6g-6T-3eA" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="K8H-Jb-fcV"/>
                 <constraint firstItem="bv6-Yf-6f2" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Vz0-qW-vcc"/>
                 <constraint firstItem="ek6-V9-gKV" firstAttribute="top" secondItem="Qsj-Qt-h5o" secondAttribute="bottom" constant="22" id="amF-FC-uL3"/>
