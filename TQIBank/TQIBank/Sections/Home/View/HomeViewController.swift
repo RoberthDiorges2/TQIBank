@@ -88,7 +88,7 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let width = collectionView.contentSize.width * 0.3
+        let width = (collectionView.contentSize.width - 20) / 3
         return CGSize(width: width, height: 112)
     }
 }
