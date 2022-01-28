@@ -55,6 +55,10 @@ class LoginViewController: UIViewController {
 
 // MARK: - LoginViewModelViewDelegate
 extension LoginViewController: LoginViewModelViewDelegate {
+    func loginViewModelFailure(_ viewModel: LoginViewModel, error: Error) {
+        debugPrint(error)
+    }
+    
     func loginViewModelShowLoading(_ viewModel: LoginViewModel, showLoading: Bool) {
         isLoading(showLoading)
     }

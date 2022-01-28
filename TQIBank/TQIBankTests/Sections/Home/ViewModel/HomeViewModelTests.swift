@@ -18,7 +18,6 @@ class HomeViewModelTests: XCTestCase {
     let service: HomeService = .init()
     
     var goToExtract = false
-    var menuOptionsSuccess = false
     
     var getMenuOptionsSuccess: ((_ response: MenuOptions) -> Void)?
     var getMenuOptionsFailure: ((_ error: Error) -> Void)?
@@ -54,12 +53,23 @@ class HomeViewModelTests: XCTestCase {
             XCTAssertNotNil(response)
             XCTAssertEqual(response.menuOptions.first?.name, "Extrato")
             XCTAssertEqual(response.menuOptions.first?.type.rawValue, "EXTRACT")
-            XCTAssertTrue(self.menuOptionsSuccess)
             expectation.fulfill()
         }
         
         viewModel.getMenuOptions()
+        waitForExpectations(timeout: 10.0, handler: nil)
+    }
+    
+    func testGetMenuOptionsFailure() {
+        let expectation = self.expectation(description: "Get Menu Options Failure")
+        mock.register(fileNamed: "", statusCode: 500)
         
+        getMenuOptionsFailure = { error in
+            XCTAssertNotNil(error)
+            expectation.fulfill()
+        }
+        
+        viewModel.getMenuOptions()
         waitForExpectations(timeout: 10.0, handler: nil)
     }
 
@@ -73,11 +83,12 @@ extension HomeViewModelTests: HomeViewModelCoordinatorDelegate {
 
 extension HomeViewModelTests: HomeViewModelViewDelegate {
     func homeViewModelSuccess(_ viewModel: HomeViewModel) {
-        menuOptionsSuccess = true
+        let response = viewModel.model
+        getMenuOptionsSuccess?(response)
     }
     
     func homeViewModelFailure(_ viewModel: HomeViewModel, error: Error) {
-        
+        getMenuOptionsFailure?(error)
     }
 }
 

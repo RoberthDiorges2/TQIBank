@@ -15,6 +15,7 @@ protocol LoginViewModelCoordinatorDelegate: AnyObject {
 
 protocol LoginViewModelViewDelegate: AnyObject {
     func loginViewModelShowLoading(_ viewModel: LoginViewModel, showLoading: Bool)
+    func loginViewModelFailure(_ viewModel: LoginViewModel, error: Error)
 }
 
 class LoginViewModel {
@@ -38,7 +39,7 @@ class LoginViewModel {
             case let .success(user):
                 self.coordinatorDelegate?.loginViewModelGoToHome(self, user: user)
             case let .failure(error):
-                debugPrint(error)
+                self.viewDelegate?.loginViewModelFailure(self, error: error)
             }
         }
     }

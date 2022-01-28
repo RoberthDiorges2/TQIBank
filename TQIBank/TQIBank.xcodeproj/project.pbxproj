@@ -36,10 +36,10 @@
 		735CF3EA66AE9FDB78CCC400 /* Pods_TQIBank_TQIBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FC6E2773BB9FC701B50DD /* Pods_TQIBank_TQIBankUITests.framework */; };
 		77A6803D8B00B56150C89F2F /* Pods_TQIBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069B50F94B6A38821E860F67 /* Pods_TQIBankTests.framework */; };
 		8520708727A0EC1F00C2DFCC /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8520708627A0EC1F00C2DFCC /* LoginViewModelTests.swift */; };
-		8520708927A0F73F00C2DFCC /* login_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520708827A0F73F00C2DFCC /* login_response_success.json */; };
-		8520708B27A0F79D00C2DFCC /* login_response_failure.json in Sources */ = {isa = PBXBuildFile; fileRef = 8520708A27A0F79D00C2DFCC /* login_response_failure.json */; };
 		8520709027A1A31D00C2DFCC /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8520708F27A1A31D00C2DFCC /* HomeViewModelTests.swift */; };
-		8520709227A1A3CD00C2DFCC /* get_menu_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520709127A1A3CD00C2DFCC /* get_menu_response_success.json */; };
+		85B844DE27A43BB600B66BA2 /* login_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520708827A0F73F00C2DFCC /* login_response_success.json */; };
+		85B844DF27A43BB900B66BA2 /* login_response_failure.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520708A27A0F79D00C2DFCC /* login_response_failure.json */; };
+		85B844E027A43BBD00B66BA2 /* get_menu_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520709127A1A3CD00C2DFCC /* get_menu_response_success.json */; };
 		8ACC1AE4135003C7086C7CD0 /* Pods_TQIBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F0DFBBCC2A04F861F9772 /* Pods_TQIBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -547,10 +547,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B844E027A43BBD00B66BA2 /* get_menu_response_success.json in Resources */,
 				20B0E718278E5C1F00A13675 /* LoginViewController.xib in Resources */,
 				20B0E6E6278E5A1200A13675 /* LaunchScreen.storyboard in Resources */,
 				2011BB472790B75C0001DEBE /* MenuCollectionViewCell.xib in Resources */,
 				20B0E71F278E5C3800A13675 /* HomeViewController.xib in Resources */,
+				85B844DE27A43BB600B66BA2 /* login_response_success.json in Resources */,
+				85B844DF27A43BB900B66BA2 /* login_response_failure.json in Resources */,
 				20B0E6E3278E5A1200A13675 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,8 +562,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8520709227A1A3CD00C2DFCC /* get_menu_response_success.json in Resources */,
-				8520708927A0F73F00C2DFCC /* login_response_success.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,7 +735,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8520708727A0EC1F00C2DFCC /* LoginViewModelTests.swift in Sources */,
-				8520708B27A0F79D00C2DFCC /* login_response_failure.json in Sources */,
 				20B0E6F1278E5A1200A13675 /* TQIBankTests.swift in Sources */,
 				8520709027A1A31D00C2DFCC /* HomeViewModelTests.swift in Sources */,
 			);
