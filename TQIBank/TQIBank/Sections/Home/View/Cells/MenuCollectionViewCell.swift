@@ -15,7 +15,7 @@ class MenuCollectionViewCell: UICollectionViewCell {
     
     public func setup(option: MenuOption) {
         
-//        setShadowView()
+        contentView.addShadow(opacity: 0.8, offset: .zero, radius: 3, color: .gray)
         menuNameLabel.text = option.name
         
         var iconName: String {
@@ -34,8 +34,4 @@ class MenuCollectionViewCell: UICollectionViewCell {
         }
         iconImage.image = UIImage(named: iconName)
     }
-    
-//    private func setShadowView() {
-//        shadowView.dropShadow(color: .gray, opacity: 4, offSet: .zero, radius: 4, scale: false)
-//    }
 }
