@@ -35,6 +35,11 @@
 		20FD4E6A278F6AE200B23ECE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD4E69278F6AE200B23ECE /* User.swift */; };
 		735CF3EA66AE9FDB78CCC400 /* Pods_TQIBank_TQIBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FC6E2773BB9FC701B50DD /* Pods_TQIBank_TQIBankUITests.framework */; };
 		77A6803D8B00B56150C89F2F /* Pods_TQIBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069B50F94B6A38821E860F67 /* Pods_TQIBankTests.framework */; };
+		8520708727A0EC1F00C2DFCC /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8520708627A0EC1F00C2DFCC /* LoginViewModelTests.swift */; };
+		8520708927A0F73F00C2DFCC /* login_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520708827A0F73F00C2DFCC /* login_response_success.json */; };
+		8520708B27A0F79D00C2DFCC /* login_response_failure.json in Sources */ = {isa = PBXBuildFile; fileRef = 8520708A27A0F79D00C2DFCC /* login_response_failure.json */; };
+		8520709027A1A31D00C2DFCC /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8520708F27A1A31D00C2DFCC /* HomeViewModelTests.swift */; };
+		8520709227A1A3CD00C2DFCC /* get_menu_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8520709127A1A3CD00C2DFCC /* get_menu_response_success.json */; };
 		8ACC1AE4135003C7086C7CD0 /* Pods_TQIBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F0DFBBCC2A04F861F9772 /* Pods_TQIBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +99,11 @@
 		388F0DFBBCC2A04F861F9772 /* Pods_TQIBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDD673FF87D7697D560F7EC /* Pods-TQIBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankTests.release.xcconfig"; path = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		8041AA882A9D4084B216ED68 /* Pods-TQIBank-TQIBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank-TQIBankUITests.release.xcconfig"; path = "Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8520708627A0EC1F00C2DFCC /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		8520708827A0F73F00C2DFCC /* login_response_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = login_response_success.json; sourceTree = "<group>"; };
+		8520708A27A0F79D00C2DFCC /* login_response_failure.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = login_response_failure.json; sourceTree = "<group>"; };
+		8520708F27A1A31D00C2DFCC /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		8520709127A1A3CD00C2DFCC /* get_menu_response_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_menu_response_success.json; sourceTree = "<group>"; };
 		946CFA782E33AE3C50082CBA /* Pods-TQIBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankTests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankTests/Pods-TQIBankTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5CFB6E565B8C9A83DD8CDEF /* Pods-TQIBank-TQIBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank-TQIBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBank-TQIBankUITests/Pods-TQIBank-TQIBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5DBE5F35169D8506C726213 /* Pods-TQIBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBank.release.xcconfig"; path = "Target Support Files/Pods-TQIBank/Pods-TQIBank.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +220,7 @@
 		20B0E6EF278E5A1200A13675 /* TQIBankTests */ = {
 			isa = PBXGroup;
 			children = (
+				8520708227A0EBAC00C2DFCC /* Sections */,
 				20B0E6F0278E5A1200A13675 /* TQIBankTests.swift */,
 				20B0E6F2278E5A1200A13675 /* Info.plist */,
 			);
@@ -353,6 +364,66 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		8520708227A0EBAC00C2DFCC /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				8520708327A0EBB400C2DFCC /* Login */,
+				8520708C27A1900B00C2DFCC /* Home */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		8520708327A0EBB400C2DFCC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8520708527A0EBE200C2DFCC /* Response */,
+				8520708427A0EBD800C2DFCC /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8520708427A0EBD800C2DFCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8520708627A0EC1F00C2DFCC /* LoginViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8520708527A0EBE200C2DFCC /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				8520708827A0F73F00C2DFCC /* login_response_success.json */,
+				8520708A27A0F79D00C2DFCC /* login_response_failure.json */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		8520708C27A1900B00C2DFCC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8520708E27A1A2F000C2DFCC /* Response */,
+				8520708D27A1A2E300C2DFCC /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8520708D27A1A2E300C2DFCC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8520708F27A1A31D00C2DFCC /* HomeViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8520708E27A1A2F000C2DFCC /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				8520709127A1A3CD00C2DFCC /* get_menu_response_success.json */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		C43C503EA3B3338FE998E551 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,6 +559,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8520709227A1A3CD00C2DFCC /* get_menu_response_success.json in Resources */,
+				8520708927A0F73F00C2DFCC /* login_response_success.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +733,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8520708727A0EC1F00C2DFCC /* LoginViewModelTests.swift in Sources */,
+				8520708B27A0F79D00C2DFCC /* login_response_failure.json in Sources */,
 				20B0E6F1278E5A1200A13675 /* TQIBankTests.swift in Sources */,
+				8520709027A1A31D00C2DFCC /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,6 +900,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PR977MXC;
 				INFOPLIST_FILE = TQIBank/Common/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -844,6 +921,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PR977MXC;
 				INFOPLIST_FILE = TQIBank/Common/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -863,7 +941,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TQIBankTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -885,7 +963,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TQIBankTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
