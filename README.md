@@ -79,6 +79,10 @@ Estamos utilizando as seguintes dependências externas:
 <img src="https://avatars.githubusercontent.com/u/75991038?v=4" style="border: none; border-radius:50%" width="100" height="100">
 <a href="https://www.linkedin.com/in/gabriel-borges-034420100/"><img align="left" alt="Victor | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <br>
+<h5>Leandro de Sousa | iOS Specialist</h5>
+<img src="https://avatars.githubusercontent.com/u/41169043?v=4" style="border: none; border-radius:50%" width="100" height="100">
+<a href="https://www.linkedin.com/in/leandrodesousadesenvolvedorios/"><img align="left" alt="Victor | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<br>
 
 ## Licensa
 
