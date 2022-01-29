@@ -83,7 +83,10 @@ Estamos utilizando as seguintes dependências externas:
 <img src="https://avatars.githubusercontent.com/u/41169043?v=4" style="border: none; border-radius:50%" width="100" height="100">
 <a href="https://www.linkedin.com/in/leandrodesousadesenvolvedorios/"><img align="left" alt="Victor | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <br>
-
+<h5>Cristino Divino | iOS Specialist</h5>
+<img src="https://avatars.githubusercontent.com/u/67058489?s=40&v=4" style="border: none; border-radius:50%" width="100" height="100">
+<a href="https://www.linkedin.com/in/cristino-divino-de-freitas-junior-709359180/"><img align="left" alt="Cristino | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<br>
 ## Licensa
 
 O Projeto TQIBank esta disponivel sobre o licenciamento do MIT, veja o arquivo para mais informações.
